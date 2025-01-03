@@ -1,0 +1,15 @@
+Arch:
+
+ordernar os comandos do primeiro pacman -S em ordem de importancia (deixar mais organizado
+
+deixar o txt agradavel aos olhos, nao precisa ter todas as instrucoes do mundo so fazer uma sintaxe maneirinha
+
+
+Sucksless:
+
+Coisas que nao se resumem a ler o config.def.h do flexipatch e colocar o que eu quero
+1) Dwmblocks, configura-lo direito
+2) Deixar tudo translucido
+3) Configurar o ST, e colocar patches tambem, como o scroolback
+4) Trocar o cursor, colocar um branco slim, algo mais moderno
+5) Usar o slock

@@ -1,0 +1,152 @@
+ping -c 3 google.com
+
+cfdisk
+512M para /boot - /dev/sda1
+200G para / - /dev/sda2
+731G para /home - /dev/sda3
+
+mkfs.fat -F32 /dev/sda1
+mkfs.ext4 /dev/sda2
+mkfs.ext4 /dev/sda3
+
+mount /dev/sda2 /mnt
+
+mkdir /mnt/boot
+mkdir /mnt/home
+
+mount /dev/sda1 /mnt/boot
+mount /dev/sda3 /mnt/home
+
+lsblk
+
+pacstrap /mnt base base-devel linux linux-firmware linux-headers nano
+
+genfstab -U -p /mnt >> /mnt/etc/fstab
+cat /mnt/etc/fstab
+
+arch-chroot /mnt
+
+passwd
+
+useradd -m -G wheel -s /bin/bash unknown
+passwd unknown
+
+nano /etc/sudoers - Descomentar o [%wheel ALL=(ALL:ALL) ALL]
+
+ln -sf /usr/share/zoneinfo/America/Sao_Paulo /etc/localtime
+date
+
+nano /etc/locale.gen - Descomentar o [pt_BR.UTF-8]
+locale-gen
+
+localectl set-locale LANG=pt_BR.UTF-8
+
+echo "Arch" >> /etc/hostname
+
+nano /etc/hosts
+127.0.0.1	localhost
+::1		localhost
+127.0.1.1    arch.localdomain  arch
+
+bootctl --path=/boot install
+
+nano /boot/loader/entries/arch.conf
+title  Arch Linux
+linux  /vmlinuz-linux
+initrd /initramfs-linux.img
+options root=/dev/sda2 rw
+
+exit
+reboot
+
+su
+systemctl enable systemd-networkd
+systemctl enable systemd-resolved
+systemctl start systemd-networkd
+systemctl start systemd-resolved
+
+nano /etc/systemd/network/20-wired.network
+[Match]
+Name=enp3s0
+[Network]
+DHCP=yes
+
+systemctl restart systemd-networkd
+systemctl restart systemd-resolved
+ 
+ping -c 3 google.com
+
+pacman -S neofetch fuse2 xorg nvidia nvidia-utils git intel-ucode pipewire pipewire-alsa alsa-utils pipewire-pulse thunar discord parole code flameshot viewnior qbittorrent
+thunar-archive-plugin xarchiver unzip zip unrar htop noto-fonts-emoji noto-fonts-cjk go xdg-utils xdg-user-dirs gst-libav gvfs gvfs-afc gvfs-mtp android-tools thunar-volman openssh iptables feh obs-studio
+
+ln -sf /run/systemd/resolve/stub-resolv.conf /etc/resolv.conf
+git clone https://aur.archlinux.org/yay.git && cd yay
+makepkg -si
+yay --version
+cd
+yay -S google-chrome systemd-swap p7zip-full-bin
+
+nano /etc/ssh/sshd_config - Descomentar o "PermitRootLogin" e deixar "no" como o valor
+
+mkswap -U clear --size 4G --file /swapfile
+swapon /swapfile
+free -h
+
+nano /etc/fstab
+#swapfile
+/swapfile none swap defaults 0 0
+
+systemctl enable systemd-swap
+
+nano /etc/systemd/swap.conf - Descomentar o "swapfc_enable" e deixar "1" como valor
+
+systemctl restart systemd-swap
+
+systemd-swap status
+
+git clone https://github.com/nicolas123qwerty/arch.git
+
+cd arch
+mv desktop /home/unknown/.config
+
+cd /home/unknown/.config/desktop
+cd suckless
+cd dwm
+make clean install
+cd -
+cd dwmblocks
+make clean install
+cd -
+cd dmenu
+make clean install
+cd -
+cd st
+make clean install
+
+cd -
+cd tema
+tar -xf dracula.tar.xz
+tar -xf ultraflat.tar.xz
+mv dracula /usr/share/themes
+mv ultraflat /usr/share/icons
+cd -
+rm -rf tema
+cd
+
+nano /usr/share/icons/default/index.theme
+[Icon Theme]
+Inherits=ultraflat
+
+nano .config/gtk-3.0/settings.ini
+[Settings]
+gtk-theme-name = dracula
+gtk-icon-theme-name = ultraflat
+
+nano .xinitrc
+feh --bg-max /home/unknown/desktop/wallpaper/wallpaper.png &
+exec dwm &
+dwmblocks
+
+nano .bash_profile - startx
+
+reboot
