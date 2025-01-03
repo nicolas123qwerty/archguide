@@ -104,9 +104,8 @@ systemctl restart systemd-swap
 
 systemd-swap status
 
-git clone https://github.com/nicolas123qwerty/arch.git
+git clone https://github.com/nicolas123qwerty/desktop.git
 
-cd arch
 mv desktop /home/unknown/.config
 
 cd /home/unknown/.config/desktop
