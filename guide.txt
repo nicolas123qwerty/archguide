@@ -91,6 +91,14 @@ yay -S google-chrome systemd-swap p7zip-full-bin
 
 su
 
+cd /
+rm -rf archguide
+cd /home/unknown
+
+git clone https://github.com/nicolas123qwerty/archguide.git
+
+git clone https://github.com/nicolas123qwerty/desktop.git
+
 nano /etc/ssh/sshd_config - Descomentar o "PermitRootLogin" e deixar "no" como o valor
 
 mkswap -U clear --size 4G --file /swapfile
@@ -108,8 +116,6 @@ nano /etc/systemd/swap.conf - Descomentar o "swapfc_enable" e deixar "1" como va
 systemctl restart systemd-swap
 
 systemd-swap status
-
-git clone https://github.com/nicolas123qwerty/desktop.git
 
 mv desktop /home/unknown/.config
 
