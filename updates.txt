@@ -4,6 +4,8 @@ ordernar os comandos do primeiro pacman -S em ordem de importancia (deixar mais 
 
 deixar o txt agradavel aos olhos, nao precisa ter todas as instrucoes do mundo so fazer uma sintaxe maneirinha
 
+ajeitar os caminhos das coisas do desktop e o git clone
+
 
 Sucksless:
 
