@@ -89,6 +89,8 @@ yay --version
 cd
 yay -S google-chrome systemd-swap p7zip-full-bin
 
+su
+
 nano /etc/ssh/sshd_config - Descomentar o "PermitRootLogin" e deixar "no" como o valor
 
 mkswap -U clear --size 4G --file /swapfile
