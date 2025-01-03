@@ -143,14 +143,13 @@ nano /usr/share/icons/default/index.theme
 [Icon Theme]
 Inherits=ultraflat
 
-exit
+cd .config
+mkdir gtk-3.0
 
-sudo nano .config/gtk-3.0/settings.ini
+nano .config/gtk-3.0/settings.ini
 [Settings]
 gtk-theme-name = dracula
 gtk-icon-theme-name = ultraflat
-
-su
 
 nano .xinitrc
 feh --bg-max /home/unknown/.config/desktop/wallpaper/wallpaper.png &
