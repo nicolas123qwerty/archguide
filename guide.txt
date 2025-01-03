@@ -77,7 +77,7 @@ systemctl restart systemd-resolved
 ping -c 3 google.com
 
 pacman -S neofetch fuse2 xorg nvidia nvidia-utils git intel-ucode pipewire pipewire-alsa alsa-utils pipewire-pulse thunar discord parole code flameshot viewnior qbittorrent
-thunar-archive-plugin xarchiver unzip zip unrar htop noto-fonts-emoji noto-fonts-cjk go xdg-utils xdg-user-dirs gst-libav gvfs gvfs-afc gvfs-mtp android-tools thunar-volman openssh iptables feh obs-studio
+thunar-archive-plugin xarchiver unzip zip unrar htop noto-fonts-emoji noto-fonts-cjk go xdg-utils xdg-user-dirs gst-libav gvfs gvfs-afc gvfs-mtp android-tools thunar-volman openssh feh obs-studio
 
 ln -sf /run/systemd/resolve/stub-resolv.conf /etc/resolv.conf
 git clone https://aur.archlinux.org/yay.git && cd yay
