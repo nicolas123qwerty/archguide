@@ -112,8 +112,6 @@ systemctl enable systemd-swap
 
 nano /etc/systemd/swap.conf - Descomentar o "swapfc_enable" e deixar "1" como valor
 
-systemctl restart systemd-swap
-
 systemd-swap status
 
 mv desktop /home/unknown/.config
