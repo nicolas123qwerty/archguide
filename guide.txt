@@ -109,7 +109,6 @@ git clone https://github.com/nicolas123qwerty/desktop.git
 mv desktop /home/unknown/.config
 
 cd /home/unknown/.config/desktop
-cd suckless
 cd dwm
 make clean install
 cd -
