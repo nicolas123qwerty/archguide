@@ -15,3 +15,4 @@ Coisas que nao se resumem a ler o config.def.h do flexipatch e colocar o que eu 
 3) Configurar o ST, e colocar patches tambem, como o scroolback
 4) Trocar o cursor, colocar um branco slim, algo mais moderno
 5) Usar o slock
+6) Usar o flexipatch apenas como uma lista, a source dele nao compensa kkkkkkkkkk
