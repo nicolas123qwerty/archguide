@@ -96,7 +96,6 @@ rm -rf archguide
 cd /home/unknown
 
 git clone https://github.com/nicolas123qwerty/archguide.git
-
 git clone https://github.com/nicolas123qwerty/desktop.git
 
 nano /etc/ssh/sshd_config - Descomentar o "PermitRootLogin" e deixar "no" como o valor
