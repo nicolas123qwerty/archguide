@@ -82,8 +82,8 @@ thunar-archive-plugin xarchiver unzip zip unrar htop noto-fonts-emoji noto-fonts
 reboot
 
 ln -sf /run/systemd/resolve/stub-resolv.conf /etc/resolv.conf
-git clone https://aur.archlinux.org/yay.git
 exit
+git clone https://aur.archlinux.org/yay.git
 cd /yay
 makepkg -si
 yay --version
