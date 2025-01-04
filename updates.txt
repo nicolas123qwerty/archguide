@@ -34,3 +34,5 @@ unica coisa de beleza que vale apena ser feita eh so dar um grau ali no dwmblock
 trocar a cor da status bar la em cima por um preto e branco, esse azul estraga tudo
 
 colocar alem do systray, um patch de alt tab e outro patch para minimizar
+
+diminuir os numeros de desktops na status bar pra 2 apenas
