@@ -1,5 +1,5 @@
 usar o librewolf com essa user.js https://github.com/arkenfox/user.js
-talvez pegar do larbs
+talvez pegar do larbs porque ele remove algumas coisas inuteis do firefox
 tirar o tema adwaita do gtk2, deixar somentos o meu, ver como fazer isso
 
 -------------------------------------------------------------
