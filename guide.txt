@@ -158,6 +158,7 @@ nano .config/gtk-3.0/settings.ini
 [Settings]
 gtk-theme-name = dracula
 gtk-icon-theme-name = ultraflat
+gtk-cursor-theme-name = cursor
 
 nano .xinitrc
 feh --bg-max /home/unknown/.config/desktop/wallpaper/wallpaper.png &
