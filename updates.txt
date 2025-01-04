@@ -1,7 +1,7 @@
 usar o librewolf com essa user.js https://github.com/arkenfox/user.js
 talvez pegar do larbs
 
------------------------------------------------------------
+-------------------------------------------------------------
 
 Suckless:
 
@@ -18,3 +18,21 @@ OBS: TODOS OS ARQUIVOS QUE UPAR NO GITHUB SERAO ARQUIVOS VIRGENS, NUNCA ANTES IN
 -------------------------------------------------------------
 
 Lista de patches dwm:
+Tiledmove
+unfloatvisible
+status2d
+alwayscenter
+hide vacant tags
+fakefullscreen
+fullscreen
+swallow
+systray
+Tagshift
+awesomebar
+Alt-tab
+
+-------------------------------------------------------------
+
+Lista de patches st:
+
+scrollback
