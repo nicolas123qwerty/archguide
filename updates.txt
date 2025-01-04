@@ -16,8 +16,8 @@ OBS: TODOS OS ARQUIVOS QUE UPAR NO GITHUB SERAO ARQUIVOS VIRGENS, NUNCA ANTES IN
 7) Colocar a statusbar em baixo
 
 -------------------------------------------------------------
-
 Lista de patches dwm:
+
 Tiledmove
 unfloatvisible
 status2d
@@ -30,9 +30,27 @@ systray
 Tagshift
 awesomebar
 Alt-tab
+alt-tab-class
+underlinetags
+aspectresize
 
 -------------------------------------------------------------
-
 Lista de patches st:
 
 scrollback
+alpha
+Ligature support
+boxdraw
+vertcenter
+anysize
+clickurl-nocontrol
+disable_bold_italic_fonts
+fullscreen
+
+-------------------------------------------------------------
+Lista de patches dmenu:
+
+dmenu-center
+dmenu-grid
+dmenu-border
+alpha
