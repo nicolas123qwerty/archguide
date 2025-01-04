@@ -1,3 +1,8 @@
+usar o librewolf com essa user.js https://github.com/arkenfox/user.js
+talvez pegar do larbs
+
+-----------------------------------------------------------
+
 Suckless:
 
 OBS: TODOS OS ARQUIVOS QUE UPAR NO GITHUB SERAO ARQUIVOS VIRGENS, NUNCA ANTES INSTALADOS SO COM AS CONFIGURACOES FEITAS
@@ -9,3 +14,7 @@ OBS: TODOS OS ARQUIVOS QUE UPAR NO GITHUB SERAO ARQUIVOS VIRGENS, NUNCA ANTES IN
 5) Tirar esse dmenu e adicionar um dmenu virgem com o patch dmenu-center
 6) Ter uma puta equalizacao do meu fone, perder muito tempo com isso, eh necessario (ficar so no equalizador, o resto dos efeitos nao tem profile exporter)
 7) Colocar a statusbar em baixo
+
+-------------------------------------------------------------
+
+Lista de patches dwm:
