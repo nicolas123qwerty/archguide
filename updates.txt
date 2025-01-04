@@ -8,3 +8,4 @@ OBS: TODOS OS ARQUIVOS QUE UPAR NO GITHUB SERAO ARQUIVOS VIRGENS, NUNCA ANTES IN
 4) Pesquisar na itnernet por algo como "dwm crucial patches", para pegar coisas que realmente estao envolvidas com a funcionalidade dele e nao com bullshit de aparencia, patches como: systray, alt tab, algum para para minimar janelas, fullscreen
 5) Tirar esse dmenu e adicionar um dmenu virgem com o patch dmenu-center
 6) Ter uma puta equalizacao do meu fone, perder muito tempo com isso, eh necessario (ficar so no equalizador, o resto dos efeitos nao tem profile exporter)
+7) Colocar a statusbar em baixo
