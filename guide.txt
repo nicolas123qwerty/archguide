@@ -139,6 +139,9 @@ cd -
 rm -rf tema
 cd
 
+trocar as coisas no caminho /usr/share/gtk-2.0 e /usr/share/gtk-3.0
+ir no /usr/share/icons e apagar o adwaita e o adwaita legacy
+
 nano /usr/share/icons/default/index.theme
 [Icon Theme]
 Inherits=ultraflat
