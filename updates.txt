@@ -1,38 +1,11 @@
-Sucksless:
+Suckless:
 
-Coisas que nao se resumem a ler o config.def.h do flexipatch e colocar o que eu quero
-1) Dwmblocks, configura-lo direito
-2) Deixar tudo translucido
-3) Configurar o ST, e colocar patches tambem, como o scroolback
-4) Trocar o cursor, colocar um branco slim, algo mais moderno
-5) Usar o slock
-6) Usar o flexipatch apenas como uma lista, a source dele nao compensa kkkkkkkkkk
+OBS: TODOS OS ARQUIVOS QUE UPAR NO GITHUB SERAO ARQUIVOS VIRGENS, NUNCA ANTES INSTALADOS SO COM AS CONFIGURACOES FEITAS
 
-realmente preciso de toda essa viadagem do dwm? sendo bem sincero, ate que compensa se certo modo, se alguem fizesse o projeto, mas no final das contas eu e o pessoal vai prefirir buildar seu proprio desktop, entao nao vale a pena o esforco/tempo gasto
-realmente preciso do dmenu no meio bonitinho? nao, nao muda nada em funcinonalidade e tambem nem eh essa lindeza toda, eh melhor deixar a source enxuta mesmo
-realmente preciso dessa inifinidade de patches? nao, a maior parte do pessoal foda dwm usa menos de 8 patches, entao eh mais legal focar so em funcionalidade
-
-sendo bem sincero,a configuracao valeu bem apena, mas eu acredito que a beleza do dwm ta na sua mais completa minimilidade (nem sei se existe essa palavra), mas o diferencial dele eh que ele eh enxuto, eu apenas usaria meu computador
-para estudar, gerenciar janelas e acessar a internet com uma seguranca devida e um sistema operacional bem configurado, o que no final so vai demandar de mim algumas configuracoes basicas, mexer com  ricing e patches no final das contas vai ser algo muito mais estetico e desnecessario do que necessariamente produtivo, entrando numa especie de looping de produtividade porque nao adianta ter o melhor setup do mundo se nao sabes codar uma fucking linha de codigo,
-entao acaba que voce os patches, nao fodase completamente, pretendo colocar um scroolback no dwm ainda, mas pretendo tirar esse dmenu diferentinho, deixar algo hiper-minimal, porque no final das contas nao faz diferenca, nao quero vir aqui e me fazer de louco por menos pacotes e coisas inuteis, mas eh muito melhor manter uma instalacao limpa decente e muito bem feita, sem encher linguica do que ficar semanas e/ou meses pra colocar algumas animacoeszinhas, umas cores legais e etc, acho que so o tema gtk, os icones e o papel de parede ja eh muito mais que suficiente pra nao ficar algo ta escaralhado tambem, no momento eu estou com sono, nao vou jogar esse trampo no lixo, obviamente, mas eh algo a se refletir depois que tirar um chochilo pos-almoco
-
-e so um adendo aqui para eu nao esquecer nos meus pensamentos futuros, sao sobre os patches realmente "necessarios" de fixes, como o fullscreen patch, isso eh algo bem fora da curva, mas no final como nao vou rodar jogo nenhum, nao se torna algo necessario, entende? parece que estou cacando coisas para me preucupar e ter algo "perfeito", sendo que a perfeicao eh algo praticamente inalcancavel e eu so taria perdendo tempo de produtividade real fazendo alguma coisa mais importante da minha vida, a grande parte eu ja fiz, um setup solido, um arch bem construido, com guide e repo pra ele, agora acho que so eh legal focar em coisas interessantes como o slock, scollar terminal e tacar o fodase pra icone unicode no dwamblocks, pra cursor de mouse mais moderninho, pra deixar tudo transparente
-
-ate mesmo quando voce pega setups de dwm de pessoas que realmente entendem da parada e fazem isso acontecer, vais ver que tem no maximo uns de 5-8 patches, algo bem irrisorio, e sobre aparencia eles fazem coisas bem minimal, como o dmenu com a aparencia do rofi, e configuracoes mais slims do dwmblocks, junto a janelas translucidas, algo bem simples e enxuto, que segue a risca a filosofia K.I.S.S e so colabora com isso, daqui ha algum tempo, por minha curva de aprendizado ser alta e realmente dominar o coding de uma forma geral, a unica coisa que vai fazer diferenca eh ter uma ide bem configurada, o que nao tem bulhufas a ver com porrinha de patch de dwm bonitinho, translucido e papel de parede de garotinha cute cute de anime, entao acho que focar nisso completamente eh pura idiotice
-
-no final das contas acho que so vale perder tempo com coisa realmente util no dwm como o systray e fullscreen, no st como o scrooling e coisas do tipo, coisas enxutas e decentes, acho que a melhor coisa que faco eh pesquisar em ingles no google coisas como "patchs do dwm que sao necessarios" e coisas do tipo pra chegar numas sub-reddit ai que nego compartilha seus setups e seus patchs, e pegar somente o necessario pra dar um "fix" em certas coisas de deixar o sistema nao tao escaralhado de minimal
-
-entao basicamente fodase que no meu dwmblocks ali no canto superior esquerdo vai ter um emojizinho de relogio, um icone de regular volume que pode muito bem ser trocado por um super + enter alsamixer sabe? no final eh legal so pegar um patches necessarios, algo como o slock para seguranca e o resto ja esta feito pela minha instalacao do arch
-
-outra coisa que vale muito apena perder tempo eh equalizando o fone e salvando uma profile aq mesmo no desktop, vale muito apena, essa placa de som eh intankavel e isso ia me ajudar um bocado, eh de extrema importancia na realidade, eh bom fazer isso logo inclusive, mas eu estou morrendo e sono e quero focar em regular minha melatonina e sair de estado de alerta e nao vou ficar fadado a nada hiper-tecnico, porque senao eu ja estaria completamente fudido so pelo setup, se ficar invocado mesmo, uso aqueles efeitos do easyeffects mesmo e faco qualquer coisa de que tudo soe bem aos meus gostos, foda que o as coisas que nao eh o eq nao tem profile importer/exporter, melhor focar so no equalizador mesmo
-
-pegar as coisas na source e hospedar aq na source tbm, so pegar o dwm trocar o modmask colocar o dwmblocks alterar o font-size do st mas tudo na source "virgem", sem ter usado o make e estando sem as licencas e os arquivos de readme desnecessarios
-
-trocar aquela source do dmenu adicionando apenas o patch do dmenu-center
-unica coisa de beleza que vale apena ser feita eh so dar um grau ali no dwmblocks, tirar o uso de ram e ajeitar o esquema de sintaxe do horario/dia/mes
-
-trocar a cor da status bar la em cima por um preto e branco, esse azul estraga tudo
-
-colocar alem do systray, um patch de alt tab e outro patch para minimizar
-
-diminuir os numeros de desktops na status bar pra 2 apenas
+1) Tirar o uso de memoria e ajeitar a sintaxe das informacoes de tempo
+2) Configurar o ST, mudando o tamanho de sua fonte e colocando patches uteis/necessarios, como o scroolback
+3) Usar o slock
+4) Pesquisar na itnernet por algo como "dwm crucial patches", para pegar coisas que realmente estao envolvidas com a funcionalidade dele e nao com bullshit de aparencia, patches como: systray, alt tab, algum para para minimar janelas, fullscreen
+5) Tirar esse dmenu e adicionar um dmenu virgem com o patch dmenu-center
+6) Ter uma puta equalizacao do meu fone, perder muito tempo com isso, eh necessario (ficar so no equalizador, o resto dos efeitos nao tem profile exporter)
+7) Tirar o uso de ram do dwmblocks e deixar apenas as informacoes de tempo com uma sitaxe ajeitada
