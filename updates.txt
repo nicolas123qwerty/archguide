@@ -2,10 +2,9 @@ Suckless:
 
 OBS: TODOS OS ARQUIVOS QUE UPAR NO GITHUB SERAO ARQUIVOS VIRGENS, NUNCA ANTES INSTALADOS SO COM AS CONFIGURACOES FEITAS
 
-1) Tirar o uso de memoria e ajeitar a sintaxe das informacoes de tempo
+1) Tirar o uso de memoria e ajeitar a sintaxe das informacoes de tempo no dwmblocks
 2) Configurar o ST, mudando o tamanho de sua fonte e colocando patches uteis/necessarios, como o scroolback
 3) Usar o slock
 4) Pesquisar na itnernet por algo como "dwm crucial patches", para pegar coisas que realmente estao envolvidas com a funcionalidade dele e nao com bullshit de aparencia, patches como: systray, alt tab, algum para para minimar janelas, fullscreen
 5) Tirar esse dmenu e adicionar um dmenu virgem com o patch dmenu-center
 6) Ter uma puta equalizacao do meu fone, perder muito tempo com isso, eh necessario (ficar so no equalizador, o resto dos efeitos nao tem profile exporter)
-7) Tirar o uso de ram do dwmblocks e deixar apenas as informacoes de tempo com uma sitaxe ajeitada
