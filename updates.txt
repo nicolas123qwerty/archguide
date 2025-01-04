@@ -32,3 +32,5 @@ trocar aquela source do dmenu adicionando apenas o patch do dmenu-center
 unica coisa de beleza que vale apena ser feita eh so dar um grau ali no dwmblocks, tirar o uso de ram e ajeitar o esquema de sintaxe do horario/dia/mes
 
 trocar a cor da status bar la em cima por um preto e branco, esse azul estraga tudo
+
+colocar alem do systray, um patch de alt tab e outro patch para minimizar
