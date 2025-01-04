@@ -76,7 +76,7 @@ systemctl restart systemd-resolved
  
 ping -c 3 google.com
 
-pacman -S fastfetch fuse2 xorg xorg-xinit nvidia nvidia-utils git intel-ucode pipewire pipewire-alsa alsa-utils pipewire-pulse thunar discord parole code flameshot viewnior qbittorrent easyeffects
+pacman -S fastfetch fuse2 xorg xorg-xinit nvidia nvidia-utils git intel-ucode pipewire pipewire-alsa alsa-utils pipewire-pulse thunar discord parole code flameshot viewnior qbittorrent lsp-plugins
 thunar-archive-plugin xarchiver unzip zip unrar htop noto-fonts-emoji noto-fonts-cjk go xdg-utils xdg-user-dirs gst-libav gvfs gvfs-afc gvfs-mtp android-tools thunar-volman openssh feh obs-studio
 
 reboot
@@ -87,7 +87,7 @@ git clone https://aur.archlinux.org/yay.git && cd yay
 makepkg -si
 yay --version
 cd
-yay -S google-chrome systemd-swap p7zip-full-bin
+yay -S google-chrome systemd-swap p7zip-full-bin easyeffects-git
 
 su
 
