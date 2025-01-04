@@ -143,6 +143,9 @@ trocar as coisas no caminho /usr/share/gtk-2.0 e /usr/share/gtk-3.0
 rm -rf gtkrc (no gtk-2.0)
 ver sobre cursor, ta dando que meu tema de cursor eh ultraflat
 ir no /usr/share/icons e apagar o adwaita e o adwaita legacy
+cursor fix:
+nano .config/gtk-3.0/settings.ini
+gtk-cursor-theme-name = cursor
 
 nano /usr/share/icons/default/index.theme
 [Icon Theme]
