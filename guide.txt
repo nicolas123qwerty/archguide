@@ -76,7 +76,7 @@ systemctl restart systemd-resolved
  
 ping -c 3 google.com
 
-pacman -S neofetch fuse2 xorg xorg-xinit nvidia nvidia-utils git intel-ucode pipewire pipewire-alsa alsa-utils pipewire-pulse thunar discord parole code flameshot viewnior qbittorrent
+pacman -S fastfetch fuse2 xorg xorg-xinit nvidia nvidia-utils git intel-ucode pipewire pipewire-alsa alsa-utils pipewire-pulse thunar discord parole code flameshot viewnior qbittorrent
 thunar-archive-plugin xarchiver unzip zip unrar htop noto-fonts-emoji noto-fonts-cjk go xdg-utils xdg-user-dirs gst-libav gvfs gvfs-afc gvfs-mtp android-tools thunar-volman openssh feh obs-studio
 
 reboot
@@ -141,6 +141,7 @@ cd
 
 trocar as coisas no caminho /usr/share/gtk-2.0 e /usr/share/gtk-3.0
 rm -rf gtkrc (no gtk-2.0)
+ver sobre cursor, ta dando que meu tema de cursor eh ultraflat
 ir no /usr/share/icons e apagar o adwaita e o adwaita legacy
 
 nano /usr/share/icons/default/index.theme
