@@ -3,7 +3,6 @@ ZERAR A LISTA DE PATCHES DO DWM NO SITE DA SUCKLESS, POIS O RESTO TODO JA FOI, S
 
 usar o librewolf com essa user.js https://github.com/arkenfox/user.js
 talvez pegar do larbs porque ele remove algumas coisas inuteis do firefox
-tirar o tema adwaita do gtk2, deixar somentos o meu, ver como fazer isso
 deixar o codigo da parte dos temas e icones mais limpo, mais bem organizado, usando menos comando
 -------------------------------------------------------------
 
