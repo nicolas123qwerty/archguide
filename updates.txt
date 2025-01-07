@@ -9,6 +9,7 @@ Colocar pacotes como o do libreoffice, para estudo
 salvar uma colorbind e algumas configs do nvidia-settings e deixar anotado o brabo aqui
 colocar um alerta de update no dwmblocks
 deixar o easy effects iniciando junto com o sistema em tray
+ainda estou tendo problemas com letras arabe
 -------------------------------------------------------------
 
 Suckless:
