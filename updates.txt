@@ -8,6 +8,7 @@ por mais que um leitor de pdf nao seja necessario, acho que apps como o mupdf se
 Colocar pacotes como o do libreoffice, para estudo
 salvar uma colorbind e algumas configs do nvidia-settings e deixar anotado o brabo aqui
 colocar um alerta de update no dwmblocks
+deixar o easy effects iniciando junto com o sistema em tray
 -------------------------------------------------------------
 
 Suckless:
