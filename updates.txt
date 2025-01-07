@@ -4,6 +4,7 @@ ZERAR A LISTA DE PATCHES DO DWM NO SITE DA SUCKLESS, POIS O RESTO TODO JA FOI, S
 usar o librewolf com essa user.js https://github.com/arkenfox/user.js
 talvez pegar do larbs porque ele remove algumas coisas inuteis do firefox
 deixar o codigo da parte dos temas e icones mais limpo, mais bem organizado, usando menos comando
+por mais que um leitor de pdf nao seja necessario, acho que apps como o mupdf seria necessario para .docx e etc...
 -------------------------------------------------------------
 
 Suckless:
