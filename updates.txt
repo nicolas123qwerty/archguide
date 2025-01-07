@@ -7,6 +7,7 @@ deixar o codigo da parte dos temas e icones mais limpo, mais bem organizado, usa
 por mais que um leitor de pdf nao seja necessario, acho que apps como o mupdf seria necessario para .docx e etc...
 Colocar pacotes como o do libreoffice, para estudo
 salvar uma colorbind e algumas configs do nvidia-settings e deixar anotado o brabo aqui
+colocar um alerta de update no dwmblocks
 -------------------------------------------------------------
 
 Suckless:
