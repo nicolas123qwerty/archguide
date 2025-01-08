@@ -55,6 +55,7 @@ anysize
 clickurl-nocontrol
 disable_bold_italic_fonts
 fullscreen
+font2
 
 -------------------------------------------------------------
 Lista de patches dmenu:
