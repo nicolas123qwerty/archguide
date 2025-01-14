@@ -20,7 +20,8 @@ OBS: TODOS OS ARQUIVOS QUE UPAR NO GITHUB SERAO ARQUIVOS VIRGENS, NUNCA ANTES IN
 2) Mudar o tamanho da fonte do ST
 3) Usar o slock
 4) Colocar a statusbar em baixo
-
+5) Editar a source do DWM, colocar a fonte no tamanho certo, trocar a modkey e etc...
+Precisa fazer aquele negócio de colocar o st no /bin/bash?
 -------------------------------------------------------------
 Lista de patches dwm:
 
