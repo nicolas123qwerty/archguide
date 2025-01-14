@@ -9,19 +9,17 @@ salvar uma colorbind e algumas configs do nvidia-settings e deixar anotado o bra
 colocar um alerta de update no dwmblocks
 deixar o easy effects iniciando junto com o sistema em tray
 ainda estou tendo problemas com letras arabe e personalizadas de um modo geral, com perfis no discord tbm, aquelas fontes cool
+ajeitar o preamp da profile do eq
 -------------------------------------------------------------
 
 Suckless:
 
 OBS: TODOS OS ARQUIVOS QUE UPAR NO GITHUB SERAO ARQUIVOS VIRGENS, NUNCA ANTES INSTALADOS SO COM AS CONFIGURACOES FEITAS
 
-1) Ajeitar a sintaxe das informacoes de tempo no dwmblocks
-2) Configurar o ST, mudando o tamanho de sua fonte e colocando patches uteis/necessarios, como o scroolback
+1) Ajeitar a sintaxe das informacoes no dwmblocks
+2) Mudar o tamanho da fonte do ST
 3) Usar o slock
-4) Pesquisar na itnernet por algo como "dwm crucial patches", para pegar coisas que realmente estao envolvidas com a funcionalidade dele e nao com bullshit de aparencia, patches como: systray, alt tab, algum para para minimar janelas, fullscreen
-5) Tirar esse dmenu e adicionar um dmenu virgem com o patch dmenu-center
-6) Ter uma puta equalizacao do meu fone, perder muito tempo com isso, eh necessario (ficar so no equalizador, o resto dos efeitos nao tem profile exporter)
-7) Colocar a statusbar em baixo
+4) Colocar a statusbar em baixo
 
 -------------------------------------------------------------
 Lista de patches dwm:
