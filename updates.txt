@@ -10,6 +10,8 @@ colocar um alerta de update no dwmblocks
 deixar o easy effects iniciando junto com o sistema em tray
 ainda estou tendo problemas com letras arabe e personalizadas de um modo geral, com perfis no discord tbm, aquelas fontes cool
 ajeitar o preamp da profile do eq para menor ne
+achar um papel de parede de paisagem bonita mesmo, nada de cool, colorido, algo bem simplao e natureza real msm
+dar um jeito de deixar a topbar allback, ia ficar bem show
 -------------------------------------------------------------
 
 Suckless:
