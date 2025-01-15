@@ -6,8 +6,7 @@ salvar uma colorbind e algumas configs do nvidia-settings e deixar anotado o bra
 colocar um alerta de update no dwmblocks
 deixar o easy effects iniciando junto com o sistema em tray
 dar um jeito de deixar a statusbar allback, ia ficar bem show
-
-colocar o debloat do discord (openasar) e o librewolf com as configs de forma automatica, nao sei como, mas vai ser isso
+colocar o debloat do discord (openasar), e as config do eq no repo principal
 -------------------------------------------------------------
 
 Suckless:
