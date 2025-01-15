@@ -14,8 +14,7 @@ achar um papel de parede de paisagem bonita mesmo, nada de cool, colorido, algo 
 dar um jeito de deixar a topbar allback, ia ficar bem show
 comentar todo o codigo, deixar ele organizado no .sh
 
-fazer um readme bonintinho, ajeitar o perfil do github, limpar todas as commit e deixar bonintinho, pq o desktop ta bem decente
-hospedar tudo no github, ate mesmo o librewolf com as config e o debloat do discord, deixar tudo hospedado bonintinho, vai dar um trampo em, mas vai valer a pena, instalar o s.o perfeito com 2 linhas de comando
+colocar o debloat do discord (openasar) e o librewolf com as configs de forma automatica, nao sei como, mas vai ser isso
 -------------------------------------------------------------
 
 Suckless:
