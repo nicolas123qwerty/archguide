@@ -7,6 +7,7 @@ colocar um alerta de update no dwmblocks
 deixar o easy effects iniciando junto com o sistema em tray
 dar um jeito de deixar a statusbar allback, ia ficar bem show
 colocar o debloat do discord (openasar), e as config do eq no repo principal
+adicionar o sheel zsh
 -------------------------------------------------------------
 
 Suckless:
