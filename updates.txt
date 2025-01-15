@@ -1,5 +1,6 @@
 ZERAR A LISTA DE PATCHES DO DWM NO SITE DA SUCKLESS, POIS O RESTO TODO JA FOI, SO FALTA FAZER ESSA LISTA DEPOIS DAR PATCH EM TUDO E BUILDAR O DWM PERFEITO
 
+
 VER SOBRE ESSE INSTALL SCRIPT DO ELBACHIR - https://github.com/elbachir-one/ArchMega
 
 
@@ -14,6 +15,9 @@ ainda estou tendo problemas com letras arabe e personalizadas de um modo geral, 
 ajeitar o preamp da profile do eq para menor ne
 achar um papel de parede de paisagem bonita mesmo, nada de cool, colorido, algo bem simplao e natureza real msm
 dar um jeito de deixar a topbar allback, ia ficar bem show
+comentar todo o codigo, deixar ele organizado no .sh
+
+fazer um readme bonintinho, ajeitar o perfil do github, limpar todas as commit e deixar bonintinho, pq o desktop ta bem decente
 -------------------------------------------------------------
 
 Suckless:
