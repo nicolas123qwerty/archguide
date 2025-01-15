@@ -1,5 +1,7 @@
 ZERAR A LISTA DE PATCHES DO DWM NO SITE DA SUCKLESS, POIS O RESTO TODO JA FOI, SO FALTA FAZER ESSA LISTA DEPOIS DAR PATCH EM TUDO E BUILDAR O DWM PERFEITO
 
+VER SOBRE ESSE INSTALL SCRIPT DO ELBACHIR - https://github.com/elbachir-one/ArchMega
+
 
 usar o librewolf com essa user.js https://github.com/arkenfox/user.js
 talvez pegar do larbs porque ele remove algumas coisas inuteis do firefox
