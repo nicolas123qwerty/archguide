@@ -7,11 +7,9 @@ VER SOBRE ESSE INSTALL SCRIPT DO ELBACHIR - https://github.com/elbachir-one/Arch
 usar o librewolf com essa user.js https://github.com/arkenfox/user.js
 talvez pegar do larbs porque ele remove algumas coisas inuteis do firefox
 deixar o codigo da parte dos temas e icones mais limpo, mais bem organizado, usando menos comando
-por mais que um leitor de pdf nao seja necessario, acho que apps como o mupdf seria necessario para .docx e etc...
 salvar uma colorbind e algumas configs do nvidia-settings e deixar anotado o brabo aqui
 colocar um alerta de update no dwmblocks
 deixar o easy effects iniciando junto com o sistema em tray
-ajeitar o preamp da profile do eq para menor ne
 achar um papel de parede de paisagem bonita mesmo, nada de cool, colorido, algo bem simplao e natureza real msm
 dar um jeito de deixar a topbar allback, ia ficar bem show
 comentar todo o codigo, deixar ele organizado no .sh
