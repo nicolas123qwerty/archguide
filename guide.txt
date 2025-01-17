@@ -81,8 +81,7 @@ thunar-archive-plugin xarchiver unzip zip unrar htop noto-fonts go xdg-utils xdg
 
 reboot
 
-ln -sf /run/systemd/resolve/stub-resolv.conf /etc/resolv.conf
-exit
+sudo ln -sf /run/systemd/resolve/stub-resolv.conf /etc/resolv.conf
 cd /tmp
 git clone https://aur.archlinux.org/yay.git && cd yay
 makepkg -si
