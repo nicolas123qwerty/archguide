@@ -87,7 +87,7 @@ git clone https://aur.archlinux.org/yay.git && cd yay
 makepkg -si
 yay --version
 cd
-yay -S librewolf systemd-swap p7zip-full-bin easyeffects-git
+yay -S librewolf-bin systemd-swap p7zip-full-bin easyeffects-git
 
 su
 
