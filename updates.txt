@@ -1,7 +1,6 @@
 ZERAR A LISTA DE PATCHES DO DWM NO SITE DA SUCKLESS, POIS O RESTO TODO JA FOI, SO FALTA FAZER ESSA LISTA DEPOIS DAR PATCH EM TUDO E BUILDAR O DWM PERFEITO
 
 usar o librewolf do larbs
-deixar o codigo da parte dos temas e icones mais limpo, mais bem organizado, usando menos comando
 colocar um alerta de update no dwmblocks
 deixar o easy effects iniciando junto com o sistema em tray
 dar um jeito de deixar a statusbar allback, ia ficar bem show
