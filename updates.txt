@@ -5,7 +5,7 @@ deixar o codigo da parte dos temas e icones mais limpo, mais bem organizado, usa
 colocar um alerta de update no dwmblocks
 deixar o easy effects iniciando junto com o sistema em tray
 dar um jeito de deixar a statusbar allback, ia ficar bem show
-adicionar o sheel zsh com o powerlevel10k
+adicionar o sheel zsh com zsh-autosugestion e com o powerlevel10k
 adicionar nerd fonts como a fontawesome, meslolgs
 fazer um .sh para adicionar tudo do primeiro pacman -S de uma vez, eh muito chato isso, as vezes digita algo errado
 abaixar a preamp do equalizador
