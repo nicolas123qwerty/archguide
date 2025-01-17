@@ -1,16 +1,15 @@
-ZERAR A LISTA DE PATCHES DO DWM NO SITE DA SUCKLESS, POIS O RESTO TODO JA FOI, SO FALTA FAZER ESSA LISTA DEPOIS DAR PATCH EM TUDO E BUILDAR O DWM PERFEITO
+Sistema:
 
-colocar um alerta de update no dwmblocks
-dar um jeito de deixar a statusbar allback, ia ficar bem show
-adicionar o zsh zsh-completions zsh-autosuggestions e o tema do powerlevel10k
-fazer um .sh para adicionar tudo do yay -S de uma vez, eh muito chato isso, as vezes digita algo errado
-abaixar a preamp do equalizador
-adicionar na guide os passos do .config que vem no desktop
+1) Adicionar o zsh zsh-completions zsh-autosuggestions e o tema do powerlevel10k
+2) Fazer um .sh para adicionar tudo do yay -S de uma vez, eh muito chato isso, as vezes digita algo errado
+3) Abaixar a preamp do equalizador
+4) Adicionar na guide os passos do .config que vem no desktop
 -------------------------------------------------------------
 
 Suckless:
 
 OBS: TODOS OS ARQUIVOS QUE UPAR NO GITHUB SERAO ARQUIVOS VIRGENS, NUNCA ANTES INSTALADOS SO COM AS CONFIGURACOES FEITAS
+ZERAR A LISTA DE PATCHES DO DWM NO SITE DA SUCKLESS, POIS O RESTO TODO JA FOI, SO FALTA FAZER ESSA LISTA DEPOIS DAR PATCH EM TUDO E BUILDAR O DWM PERFEITO
 
 1) Ajeitar a sintaxe das informacoes no dwmblocks
 2) Mudar o tamanho da fonte do ST
@@ -18,6 +17,8 @@ OBS: TODOS OS ARQUIVOS QUE UPAR NO GITHUB SERAO ARQUIVOS VIRGENS, NUNCA ANTES IN
 4) Colocar a statusbar em baixo
 5) Editar a source do DWM, colocar a fonte no tamanho certo, trocar a modkey e etc...
 Precisa fazer aquele negócio de colocar o st no /bin/bash?
+6) Colocar um alerta de update no dwmblocks
+7) Deixar a status bar allback
 -------------------------------------------------------------
 Lista de patches dwm:
 
