@@ -7,7 +7,7 @@ deixar o easy effects iniciando junto com o sistema em tray
 dar um jeito de deixar a statusbar allback, ia ficar bem show
 adicionar o sheel zsh com zsh-autosugestion e com o powerlevel10k
 adicionar nerd fonts como a fontawesome, meslolgs - ver se isso funciona nativo no dwm
-ver sobre aumento de desempenho no disco, com opcoes como o noatime e nodiratime do fstab que vinha nas opcoes do debian
+ver sobre o relatime no fstab
 fazer um .sh para adicionar tudo do primeiro pacman -S de uma vez, eh muito chato isso, as vezes digita algo errado
 abaixar a preamp do equalizador
 -------------------------------------------------------------
