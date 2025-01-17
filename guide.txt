@@ -91,8 +91,6 @@ yay -S librewolf-bin systemd-swap p7zip-full-bin easyeffects-git
 
 su
 
-git clone https://github.com/nicolas123qwerty/desktop.git
-
 nano /etc/ssh/sshd_config - Descomentar o "PermitRootLogin" e deixar "no" como o valor
 
 mkswap -U clear --size 4G --file /swapfile
@@ -108,6 +106,8 @@ systemctl enable systemd-swap
 nano /etc/systemd/swap.conf - Descomentar o "swapfc_enable" e deixar "1" como valor
 
 systemd-swap status
+
+git clone https://github.com/nicolas123qwerty/desktop.git
 
 mv desktop /home/unknown/.config
 
