@@ -3,6 +3,7 @@ Sistema:
 1) Adicionar o zsh zsh-completions zsh-autosuggestions e o tema do powerlevel10k
 2) Fazer um .sh para adicionar tudo do yay -S de uma vez, eh muito chato isso, as vezes digita algo errado
 3) Abaixar a preamp do equalizador
+4) Adicionar extensoes para o librewolf num txt na config do desktop
 -------------------------------------------------------------
 
 Suckless:
