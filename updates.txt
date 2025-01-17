@@ -7,6 +7,7 @@ adicionar nerd fonts como a fontawesome, meslolgs
 fazer um .sh para adicionar tudo do yay -S de uma vez, eh muito chato isso, as vezes digita algo errado
 trocar o primeiro pacman por um yay -S com tudo, usar o pacman so para instalar o git
 abaixar a preamp do equalizador
+adicionar na guide os passos do .config que vem no desktop
 -------------------------------------------------------------
 
 Suckless:
