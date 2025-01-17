@@ -123,13 +123,13 @@ cd st
 make clean install
 cd -
 mv config /home/unknown/Downloads
-cd tema
+cd theme
 tar -xf dracula.tar.xz
 tar -xf ultraflat.tar.xz
 mv dracula /usr/share/themes
 mv ultraflat /usr/share/icons
 cd -
-rm -rf tema
+rm -rf theme
 cd /home/unknown
 
 nano .gtkrc-2.0
@@ -153,5 +153,3 @@ nano .bash_profile
 startx
 
 reboot
-
-alsamixer - Volume = 100
