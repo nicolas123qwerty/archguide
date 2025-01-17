@@ -91,11 +91,6 @@ yay -S librewolf-bin systemd-swap p7zip-full-bin easyeffects-git
 
 su
 
-cd /
-rm -rf archguide
-cd /home/unknown
-
-git clone https://github.com/nicolas123qwerty/archguide.git
 git clone https://github.com/nicolas123qwerty/desktop.git
 
 nano /etc/ssh/sshd_config - Descomentar o "PermitRootLogin" e deixar "no" como o valor
@@ -176,5 +171,7 @@ easyeffects
 
 nano .bash_profile
 startx
+
+rm -rf /archguide
 
 reboot
