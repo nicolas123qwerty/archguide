@@ -152,6 +152,6 @@ easyeffects
 nano .bash_profile
 startx
 
-alsamixer - Volume = 100
-
 reboot
+
+alsamixer - Volume = 100
