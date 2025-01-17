@@ -31,15 +31,15 @@ passwd
 useradd -m -G wheel -s /bin/bash unknown
 passwd unknown
 
-nano /etc/sudoers - Descomentar o [%wheel ALL=(ALL:ALL) ALL]
+nano /etc/sudoers - Uncomment the [%wheel ALL=(ALL:ALL) ALL]
 
 ln -sf /usr/share/zoneinfo/America/Sao_Paulo /etc/localtime
 date
 
-nano /etc/locale.gen - Descomentar o [pt_BR.UTF-8]
+nano /etc/locale.gen - Uncomment the [en_US.UTF-8]
 locale-gen
 
-localectl set-locale LANG=pt_BR.UTF-8
+localectl set-locale LANG=en_US.UTF-8
 
 echo "Arch" >> /etc/hostname
 
@@ -88,7 +88,7 @@ reboot
 
 su
 
-nano /etc/ssh/sshd_config - Descomentar o "PermitRootLogin" e deixar "no" como o valor
+nano /etc/ssh/sshd_config - Uncomment the "PermitRootLogin" and set the value "no"
 
 mkswap -U clear --size 4G --file /swapfile
 swapon /swapfile
@@ -100,7 +100,7 @@ nano /etc/fstab
 
 systemctl enable systemd-swap
 
-nano /etc/systemd/swap.conf - Descomentar o "swapfc_enable" e deixar "1" como valor
+nano /etc/systemd/swap.conf - Uncomment the "swapfc_enable" and set the value "1"
 
 systemctl restart systemd-swap
 systemd-swap status
