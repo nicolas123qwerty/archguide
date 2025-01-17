@@ -1,9 +1,9 @@
 ping -c 3 google.com
 
 cfdisk
-512M para /boot - /dev/sda1
-200G para / - /dev/sda2
-731G para /home - /dev/sda3
+512M for /boot - /dev/sda1
+200G for / - /dev/sda2
+731G for /home - /dev/sda3
 
 mkfs.fat -F32 /dev/sda1
 mkfs.ext4 /dev/sda2
@@ -76,18 +76,15 @@ systemctl restart systemd-resolved
  
 ping -c 3 google.com
 
-pacman -S fastfetch fuse2 xorg xorg-xinit nvidia nvidia-utils nvidia-settings git intel-ucode pipewire pipewire-alsa alsa-utils mupdf pipewire-pulse thunar discord parole code flameshot viewnior qbittorrent lsp-plugins gimp
+ln -sf /run/systemd/resolve/stub-resolv.conf /etc/resolv.conf
+pacman -S git && cd /tmp && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
+yay --version
+cd
+
+yay -S librewolf-bin systemd-swap p7zip-full-bin easyeffects-git fastfetch fuse2 xorg xorg-xinit nvidia nvidia-utils nvidia-settings git intel-ucode pipewire pipewire-alsa alsa-utils mupdf pipewire-pulse thunar discord parole code flameshot viewnior qbittorrent lsp-plugins gimp
 thunar-archive-plugin xarchiver unzip zip unrar htop noto-fonts go xdg-utils xdg-user-dirs gst-libav gvfs gvfs-afc gvfs-mtp android-tools thunar-volman openssh feh obs-studio
 
 reboot
-
-sudo ln -sf /run/systemd/resolve/stub-resolv.conf /etc/resolv.conf
-cd /tmp
-git clone https://aur.archlinux.org/yay.git && cd yay
-makepkg -si
-yay --version
-cd
-yay -S librewolf-bin systemd-swap p7zip-full-bin easyeffects-git
 
 su
 
@@ -124,7 +121,6 @@ make clean install
 cd -
 cd st
 make clean install
-
 cd -
 cd tema
 tar -xf dracula.tar.xz
@@ -135,12 +131,11 @@ cd -
 rm -rf tema
 cd /home/unknown
 
-nano .gtkrc-2.0 - seta no gtk2 so informacao
+nano .gtkrc-2.0
 gtk-theme-name = "dracula"
 gtk-icon-theme-name = "ultraflat"
 
 mkdir .config/gtk-3.0
-
 nano .config/gtk-3.0/settings.ini
 [Settings]
 gtk-theme-name = dracula
@@ -155,8 +150,5 @@ easyeffects
 
 nano .bash_profile
 startx
-
-cd /
-rm -rf /archguide
 
 reboot
