@@ -4,7 +4,7 @@ colocar um alerta de update no dwmblocks
 dar um jeito de deixar a statusbar allback, ia ficar bem show
 adicionar o zsh zsh-completions zsh-autosuggestions e o tema do powerlevel10k
 adicionar nerd fonts como a fontawesome, meslolgs
-fazer um .sh para adicionar tudo do primeiro pacman -S de uma vez, eh muito chato isso, as vezes digita algo errado
+fazer um .sh para adicionar tudo do yay -S de uma vez, eh muito chato isso, as vezes digita algo errado
 trocar o primeiro pacman por um yay -S com tudo, usar o pacman so para instalar o git
 abaixar a preamp do equalizador
 -------------------------------------------------------------
