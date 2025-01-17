@@ -81,7 +81,7 @@ pacman -S git && cd /tmp && git clone https://aur.archlinux.org/yay.git && cd ya
 yay --version
 cd
 
-yay -S librewolf-bin systemd-swap p7zip-full-bin easyeffects-git fastfetch fuse2 xorg xorg-xinit nvidia nvidia-utils nvidia-settings git intel-ucode pipewire pipewire-alsa alsa-utils mupdf pipewire-pulse thunar discord parole code flameshot viewnior qbittorrent lsp-plugins gimp
+yay -S ttf-meslo-nerd librewolf-bin systemd-swap p7zip-full-bin easyeffects-git fastfetch fuse2 xorg xorg-xinit nvidia nvidia-utils nvidia-settings git intel-ucode pipewire pipewire-alsa alsa-utils mupdf pipewire-pulse thunar discord parole code flameshot viewnior qbittorrent lsp-plugins gimp
 thunar-archive-plugin xarchiver unzip zip unrar htop noto-fonts go xdg-utils xdg-user-dirs gst-libav gvfs gvfs-afc gvfs-mtp android-tools thunar-volman openssh feh obs-studio
 
 reboot
