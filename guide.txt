@@ -175,9 +175,7 @@ exec dwm &
 dwmblocks &
 easyeffects
 
-nano .zshrc
-if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then 
-  exec startx &>/dev/null 
-fi
+nano .bash_profile
+startx
 
 reboot
