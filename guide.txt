@@ -122,6 +122,7 @@ cd -
 cd st
 make clean install
 cd -
+mv config /home/unknown/Downloads
 cd tema
 tar -xf dracula.tar.xz
 tar -xf ultraflat.tar.xz
