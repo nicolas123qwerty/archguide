@@ -105,9 +105,10 @@ systemctl enable systemd-swap
 
 nano /etc/systemd/swap.conf - Descomentar o "swapfc_enable" e deixar "1" como valor
 
+systemctl restart systemd-swap
 systemd-swap status
 
-git clone https://github.com/nicolas123qwerty/desktop.git
+git clone https://github.com/nicolas123qwerty/desktop
 
 mv desktop /home/unknown/.config
 
@@ -132,36 +133,19 @@ mv dracula /usr/share/themes
 mv ultraflat /usr/share/icons
 cd -
 rm -rf tema
-cd
+cd /home/unknown
 
-nano .gtkrc-2.0
+nano .gtkrc-2.0 - seta no gtk2 so informacao
 gtk-theme-name = "dracula"
 gtk-icon-theme-name = "ultraflat"
 
-cd /usr/share
-rm -rf gtk-2.0
-cd icons
-rm -rf Adwaita AdwaitaLegacy
-
-nano default/index.theme
-[Icon Theme]
-Inherits=ultraflat
-
-cd -
-
-nano gtk-3.0/settings.ini
-gtk-icon-theme-name = ultraflat
-gtk-theme-name = dracula
-cd
-
-cd .config
-mkdir gtk-3.0
+mkdir .config/gtk-3.0
 
 nano .config/gtk-3.0/settings.ini
 [Settings]
 gtk-theme-name = dracula
 gtk-icon-theme-name = ultraflat
-gtk-cursor-theme-name = cursor
+gtk-cursor-theme-name = default
 
 nano .xinitrc
 feh --bg-max /home/unknown/.config/desktop/wallpaper/wallpaper.png &
@@ -172,6 +156,7 @@ easyeffects
 nano .bash_profile
 startx
 
+cd /
 rm -rf /archguide
 
 reboot
