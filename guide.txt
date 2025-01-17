@@ -83,6 +83,7 @@ reboot
 
 ln -sf /run/systemd/resolve/stub-resolv.conf /etc/resolv.conf
 exit
+cd /tmp
 git clone https://aur.archlinux.org/yay.git && cd yay
 makepkg -si
 yay --version
