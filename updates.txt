@@ -1,7 +1,6 @@
 Problemas:
 
-1) Shortcuts do librewolf não funcionam
-2) Locale está setada como C.UTF-8 e não en_US.UTF-8
+1) Locale está setada como C.UTF-8 e não en_US.UTF-8
 -------------------------------------------------------------
 
 Sistema:
