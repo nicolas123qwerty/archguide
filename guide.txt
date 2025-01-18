@@ -77,7 +77,10 @@ systemctl restart systemd-resolved
 ping -c 3 google.com
 
 ln -sf /run/systemd/resolve/stub-resolv.conf /etc/resolv.conf
-pacman -S git && cd /tmp && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
+pacman -S git && cd /tmp && git clone https://aur.archlinux.org/yay.git
+exit
+cd /tmp/yay
+makepkg -si
 yay --version
 cd
 
