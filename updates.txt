@@ -18,6 +18,7 @@ ZERAR A LISTA DE PATCHES DO DWM NO SITE DA SUCKLESS, POIS O RESTO TODO JA FOI, S
 Precisa fazer aquele negócio de colocar o st no /bin/bash?
 6) Colocar um alerta de update no dwmblocks
 7) Deixar a status bar allback
+8) Diminuir o delay do uso de memoria ram no dwmblocks
 -------------------------------------------------------------
 Lista de patches dwm:
 
