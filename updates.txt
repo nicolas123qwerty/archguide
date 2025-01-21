@@ -6,6 +6,7 @@ Sistema:
 4) Cortar e reajustar a resolucao do wallpaper, visto que no canto esquerdo, a uma linha amarelada
 5) Depois que comecar a usar o patch do systray no dwm, colocar para o flameshot iniciar junto ao sistema no .xinitrc
 6) Para funcionar as colorbind, tem que abrir e fechar o nvidia-settings, automatizar isso
+7) Os bookmarks no side-panel do thunar saem quando rebooto
 -------------------------------------------------------------
 
 Suckless:
