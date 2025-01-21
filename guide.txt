@@ -83,7 +83,7 @@ cd /tmp && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
 yay --version
 cd
 
-yay -S ttf-meslo-nerd noto-fonts-cjk noto-fonts-emoji brave-bin easyeffects-git fastfetch fuse2 xorg xorg-xinit nvidia nvidia-utils nvidia-settings git intel-ucode pipewire pipewire-alsa alsa-utils mupdf pipewire-pulse thunar discord parole code flameshot viewnior qbittorrent lsp-plugins gimp
+yay -S ttf-meslo-nerd gvfs noto-fonts-cjk noto-fonts-emoji brave-bin easyeffects-git fastfetch fuse2 xorg xorg-xinit nvidia nvidia-utils nvidia-settings git intel-ucode pipewire pipewire-alsa alsa-utils mupdf pipewire-pulse thunar discord parole code flameshot viewnior qbittorrent lsp-plugins gimp
 thunar-archive-plugin xarchiver 7zip htop noto-fonts xdg-utils xdg-user-dirs thunar-volman openssh feh
 
 sudo reboot
