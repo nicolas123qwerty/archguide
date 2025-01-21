@@ -12,13 +12,14 @@ mkfs.ext4 /dev/sda3
 mkfs.ext4 /dev/sda4
 
 mount /dev/sda2 /mnt
-mounr /dev/sda4 /archives
 
 mkdir /mnt/boot
 mkdir /mnt/home
+mkdir /mnt/archives
 
 mount /dev/sda1 /mnt/boot
 mount /dev/sda3 /mnt/home
+mount /dev/sda4 /mnt/archives
 
 lsblk
 
