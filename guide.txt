@@ -27,6 +27,7 @@ lsblk
 pacstrap /mnt base base-devel linux linux-firmware linux-headers nano
 
 genfstab -U -p /mnt >> /mnt/etc/fstab
+genfstab -U -p /archives >> /mnt/etc/fstab
 cat /mnt/etc/fstab
 
 arch-chroot /mnt
