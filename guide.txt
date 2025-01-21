@@ -1,9 +1,9 @@
 ping -c 3 google.com
 
 cfdisk
-512M for /boot - /dev/sda1
-200G for / - /dev/sda2
-731G for /home - /dev/sda3
+512M for /boot - /dev/sda1 - EFI System
+200G for / - /dev/sda2 - Linux root (x86-64)
+731G for /home - /dev/sda3 - Linux filesystem
 
 mkfs.fat -F32 /dev/sda1
 mkfs.ext4 /dev/sda2
