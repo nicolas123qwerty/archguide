@@ -27,7 +27,11 @@ lsblk
 pacstrap /mnt base base-devel linux linux-firmware linux-headers nano
 
 genfstab -U -p /mnt >> /mnt/etc/fstab
-genfstab -U -p /archives >> /mnt/etc/fstab
+
+nano /mnt/etc/fstab
+/dev/sda4 /archives ext4 x-gvfs-show 0 3
+
+
 cat /mnt/etc/fstab
 
 arch-chroot /mnt
