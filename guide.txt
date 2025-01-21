@@ -16,7 +16,6 @@ mount /dev/sda4 /
 
 mkdir /mnt/boot
 mkdir /mnt/home
-mkdir /mnt/archives
 
 mount /dev/sda1 /mnt/boot
 mount /dev/sda3 /mnt/home
