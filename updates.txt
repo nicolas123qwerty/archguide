@@ -5,7 +5,7 @@ Sistema:
 3) Tirar o code e o nano, aprender qual e o melhor e como usar o vim. Sendo eles o neovim, lunarvim, chadvim kkkkk, ver qual que eh o melhor
 4) Cortar e reajustar a resolucao do wallpaper, visto que no canto esquerdo, a uma linha amarelada
 5) Depois que comecar a usar o patch do systray no dwm, colocar para o flameshot iniciar junto ao sistema no .xinitrc
-6) Para funcionar as colorbind, tem que abrir e fechar o nvidia-settings
+6) Para funcionar as colorbind, tem que abrir e fechar o nvidia-settings, automatizar isso
 -------------------------------------------------------------
 
 Suckless:
