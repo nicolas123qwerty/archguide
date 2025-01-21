@@ -12,7 +12,7 @@ mkfs.ext4 /dev/sda3
 mkfs.ext4 /dev/sda4
 
 mount /dev/sda2 /mnt
-mount /dev/sda4 /mnt
+mount /dev/sda4 /
 
 mkdir /mnt/boot
 mkdir /mnt/home
