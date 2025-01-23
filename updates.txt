@@ -8,6 +8,7 @@ Sistema:
 6) Para funcionar as colorbind, tem que abrir e fechar o nvidia-settings, automatizar isso
 7) Os bookmarks no side-panel do thunar saem quando rebooto
 8) Quando o sistema esta instalado a pouco tempo, o locale fica estranhamente setado como C.UTF-8, quando desligo ele e ligo amanha, por exemplo, tudo volta ao normal kkkkkkkkkkk, ver o porque isso acontece, tentar torcar o localectl por um echo >>
+9) Achar outro media player mais lightweight do que o parole, ele que usava o gstreamer.
 -------------------------------------------------------------
 
 Suckless:
