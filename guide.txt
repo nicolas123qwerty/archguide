@@ -13,8 +13,10 @@ mkfs.ext4 /dev/sda4
 
 mount /dev/sda2 /mnt
 
-mkdir /archives
-mount /dev/sda4 /archives
+|---------------------------|
+| mkdir /archives           |
+| mount /dev/sda4 /archives |
+|---------------------------|
 
 mkdir /mnt/boot
 mkdir /mnt/home
