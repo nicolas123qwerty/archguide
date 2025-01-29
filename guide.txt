@@ -9,11 +9,10 @@ cfdisk
 mkfs.fat -F32 /dev/sda1
 mkfs.ext4 /dev/sda2
 mkfs.ext4 /dev/sda3
-mkfs.ext4 /dev/sda4
-
-mount /dev/sda2 /mnt
 
 |---------------------------|
+| mkfs.ext4 /dev/sda4       |
+| mount /dev/sda2 /mnt      |
 | mkdir /archives           |
 | mount /dev/sda4 /archives |
 |---------------------------|
