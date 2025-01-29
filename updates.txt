@@ -1,7 +1,7 @@
 Sistema:
 
 1) Adicionar o zsh zsh-completions zsh-autosuggestions e o tema do powerlevel10k
-2) Fazer um .sh para adicionar tudo do yay -S de uma vez, eh muito chato isso, as vezes digita algo errado
+2) Fazer um .sh para adicionar tudo do yay -S de uma vez, eh muito chato isso, as vezes digita algo errado e de alguma forma achar um comando para ir tudo direto, e tambem sem ter que pedir para buildar tudo, colocar senha toda hora, usar algo como um --noconfirm ou sla oq
 3) Tirar o code e o nano, aprender qual e o melhor e como usar o vim. Sendo eles o neovim, lunarvim, chadvim kkkkk, ver qual que eh o melhor
 4) Depois que comecar a usar o patch do systray no dwm, colocar para o flameshot iniciar junto ao sistema no .xinitrc
 5) Para funcionar as colorbind, tem que abrir e fechar o nvidia-settings, automatizar isso
@@ -20,7 +20,7 @@ ZERAR A LISTA DE PATCHES DO DWM NO SITE DA SUCKLESS, POIS O RESTO TODO JA FOI, S
 2) Mudar o tamanho da fonte do ST
 3) Usar o slock
 4) Colocar a statusbar em baixo
-5) Editar a source do DWM, colocar a fonte no tamanho certo, trocar a modkey e etc...
+5) Editar a source do DWM e do ST e de todos, so o basico como colocar a fonte no tamanho certo, trocar a modkey e etc...
 Precisa fazer aquele negócio de colocar o st no /bin/bash?
 6) Colocar um alerta de update no dwmblocks
 7) Deixar a status bar allback
