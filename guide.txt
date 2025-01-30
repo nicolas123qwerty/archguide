@@ -4,18 +4,18 @@ cfdisk
 512M for /boot - /dev/sda1 - EFI System
 200G for / - /dev/sda2 - Linux root (x86-64)
 400G for /home - /dev/sda3 - Linux home
-331G for /archives - /dev/sda4 - Linux filesystem
+
+|---------------------------------------------------|
+| 331G for /archives - /dev/sda4 - Linux filesystem |
+| mkfs.ext4 /dev/sda4                               |
+| mount /dev/sda2 /mnt                              |
+| mkdir /archives                                   |
+| mount /dev/sda4 /archives                         |
+|---------------------------------------------------|
 
 mkfs.fat -F32 /dev/sda1
 mkfs.ext4 /dev/sda2
 mkfs.ext4 /dev/sda3
-
-|---------------------------|
-| mkfs.ext4 /dev/sda4       |
-| mount /dev/sda2 /mnt      |
-| mkdir /archives           |
-| mount /dev/sda4 /archives |
-|---------------------------|
 
 mkdir /mnt/boot
 mkdir /mnt/home
