@@ -9,6 +9,7 @@ Sistema:
 7) Quando o sistema esta instalado a pouco tempo, o locale fica estranhamente setado como C.UTF-8, ao inves de en_us, ver o porque isso acontece, tentar torcar o localectl por um echo >>
 8) Achar outro media player mais lightweight do que o parole, ele que usava o gstreamer.
 9) Trocar o tema de tudo, papel de parede, theme e icontheme, pegar algo mais masculo, o papel de parede ate vai, mas o dracula ta bem homosexual
+10) Adicionar coisas como o libreoffice, para abrir documentos .csv/planilhas e coisas do tipo
 -------------------------------------------------------------
 
 Suckless:
