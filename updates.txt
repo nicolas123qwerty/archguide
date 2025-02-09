@@ -2,7 +2,6 @@ Sistema:
 
 1) Adicionar o zsh zsh-completions zsh-autosuggestions e o tema do powerlevel10k
 2) Para funcionar as colorbind, tem que abrir e fechar o nvidia-settings, automatizar isso
-3) Quando o sistema esta instalado a pouco tempo, o locale fica estranhamente setado como C.UTF-8, ao inves de en_us, ver o porque isso acontece, tentar torcar o localectl por um echo >>
 -------------------------------------------------------------
 
 Suckless:
