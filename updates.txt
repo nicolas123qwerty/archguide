@@ -1,14 +1,12 @@
 Sistema:
 
 1) Adicionar o zsh zsh-completions zsh-autosuggestions e o tema do powerlevel10k
-2) Fazer um .sh para adicionar tudo do yay -S de uma vez, eh muito chato isso, as vezes digita algo errado e de alguma forma achar um comando para ir tudo direto, e tambem sem ter que pedir para buildar tudo, colocar senha toda hora, usar algo como um --noconfirm ou sla oq
-3) Tirar o code e o nano, aprender qual e o melhor e como usar o vim. Sendo eles o neovim, lunarvim, chadvim kkkkk, ver qual que eh o melhor
 4) Depois que comecar a usar o patch do systray no dwm, colocar para o flameshot iniciar junto ao sistema no .xinitrc
 5) Para funcionar as colorbind, tem que abrir e fechar o nvidia-settings, automatizar isso
 6) Os bookmarks no side-panel do thunar saem quando rebooto
 7) Quando o sistema esta instalado a pouco tempo, o locale fica estranhamente setado como C.UTF-8, ao inves de en_us, ver o porque isso acontece, tentar torcar o localectl por um echo >>
 8) Achar outro media player mais lightweight do que o parole, ele que usava o gstreamer.
-9) Trocar o tema de tudo, papel de parede, theme e icontheme, pegar algo mais masculo, o papel de parede ate vai, mas o dracula ta bem homosexual
+9) Achar um papel de parede maneiro, mais colorido
 10) Adicionar coisas como o libreoffice, para abrir documentos .csv/planilhas e coisas do tipo
 -------------------------------------------------------------
 
