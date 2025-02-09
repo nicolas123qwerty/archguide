@@ -1,12 +1,10 @@
 Sistema:
 
 1) Adicionar o zsh zsh-completions zsh-autosuggestions e o tema do powerlevel10k
-2) Depois que comecar a usar o patch do systray no dwm, colocar para o flameshot iniciar junto ao sistema no .xinitrc
-3) Para funcionar as colorbind, tem que abrir e fechar o nvidia-settings, automatizar isso
-4) Os bookmarks no side-panel do thunar saem quando rebooto
-5) Quando o sistema esta instalado a pouco tempo, o locale fica estranhamente setado como C.UTF-8, ao inves de en_us, ver o porque isso acontece, tentar torcar o localectl por um echo >>
-6) Achar outro media player mais lightweight do que o parole, ele que usava o gstreamer.
-7) Adicionar coisas como o libreoffice, para abrir documentos .csv/planilhas e coisas do tipo
+2) Para funcionar as colorbind, tem que abrir e fechar o nvidia-settings, automatizar isso
+3) Os bookmarks no side-panel do thunar saem quando rebooto
+4) Quando o sistema esta instalado a pouco tempo, o locale fica estranhamente setado como C.UTF-8, ao inves de en_us, ver o porque isso acontece, tentar torcar o localectl por um echo >>
+5) Achar outro media player mais lightweight do que o parole, ele que usava o gstreamer.
 -------------------------------------------------------------
 
 Suckless:
