@@ -141,7 +141,7 @@ gtk-icon-theme-name = ultraflat
 gtk-cursor-theme-name = default
 
 nano .xinitrc
-feh --bg-max /home/unknown/.config/desktop/wallpaper/wallpaper.png &
+feh --bg-max /home/unknown/.config/desktop/wallpaper/wallpaper.jpg &
 exec dwm &
 dwmblocks &
 easyeffects
