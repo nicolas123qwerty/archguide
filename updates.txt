@@ -1,7 +1,6 @@
 Sistema:
 
 1) Adicionar o zsh zsh-completions zsh-autosuggestions e o tema do powerlevel10k
-2) Para funcionar as colorbind, tem que abrir e fechar o nvidia-settings, automatizar isso
 -------------------------------------------------------------
 
 Suckless:
