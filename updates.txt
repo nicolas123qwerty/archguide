@@ -13,7 +13,6 @@ ZERAR A LISTA DE PATCHES DO DWM NO SITE DA SUCKLESS, POIS O RESTO TODO JA FOI, S
 3) Usar o slock
 3) ajeitar algumas coisinha na sintaxe do dwmblocks
 4) sepa jogar alguma outra coisa no dwmblocks, tipo cpu, ver se compensa
-8) Diminuir o delay do uso de memoria ram no dwmblocks
 -------------------------------------------------------------
 Lista de patches dwm:
 
