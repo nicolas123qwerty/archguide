@@ -2,6 +2,7 @@ Sistema:
 
 1) Adicionar o zsh zsh-completions zsh-autosuggestions e o tema do powerlevel10k
 2) baixar as fontes unicode do gabriel twm linux la, a quele ele usa no dwmblocks, so pra ter compatibilidade
+3) ver o bagulho de gpu no htop
 -------------------------------------------------------------
 
 Suckless:
