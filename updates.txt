@@ -11,8 +11,6 @@ OBS: TODOS OS ARQUIVOS QUE UPAR NO GITHUB SERAO ARQUIVOS VIRGENS, NUNCA ANTES IN
 ZERAR A LISTA DE PATCHES DO DWM NO SITE DA SUCKLESS, POIS O RESTO TODO JA FOI, SO FALTA FAZER ESSA LISTA DEPOIS DAR PATCH EM TUDO E BUILDAR O DWM PERFEITO
 
 3) Usar o slock
-3) ajeitar algumas coisinha na sintaxe do dwmblocks
-4) sepa jogar alguma outra coisa no dwmblocks, tipo cpu, ver se compensa
 -------------------------------------------------------------
 Lista de patches dwm:
 
