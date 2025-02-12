@@ -1,6 +1,6 @@
 Sistema:
 
-LEMBRAR DE AJEITAR AS PASTAS NA GUIDE
+LEMBRAR DE AJEITAR AS PASTAS/COISAS NA GUIDE
 
 1) Adicionar o zsh zsh-completions zsh-autosuggestions e o tema do powerlevel10k
 -------------------------------------------------------------
