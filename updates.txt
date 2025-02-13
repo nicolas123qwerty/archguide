@@ -6,6 +6,7 @@ LEMBRAR DE AJEITAR AS PASTAS/COISAS NA GUIDE
 2) Criar um servico do systemd para hibernar automaticamente, vou linkar 2 lugares onde falam sobre isso:
 https://www.youtube.com/watch?v=fTHrR38-jRg&t=196s - No comeco do minuto 3
 https://wiki.archlinux.org/title/Power_management/Suspend_and_hibernate#Sleep_hooks
+3) Deixar a pasta config o mais clean possivel,
 -------------------------------------------------------------
 
 Suckless:
