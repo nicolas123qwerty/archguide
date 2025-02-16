@@ -6,7 +6,8 @@ LEMBRAR DE AJEITAR AS PASTAS/COISAS NA GUIDE
 2) Criar um servico do systemd para hibernar automaticamente, vou linkar 2 lugares onde falam sobre isso:
 https://www.youtube.com/watch?v=fTHrR38-jRg&t=196s - No comeco do minuto 3
 https://wiki.archlinux.org/title/Power_management/Suspend_and_hibernate#Sleep_hooks
-3) Deixar a pasta config o mais clean possivel,
+3) Deixar a pasta config o mais clean possivel
+4) Acho que seria legal recopiar o esquema de zswap, tendo em conta o pc que vou ter
 -------------------------------------------------------------
 
 Suckless:
@@ -21,7 +22,7 @@ ZERAR A LISTA DE PATCHES DO DWM NO SITE DA SUCKLESS, POIS O RESTO TODO JA FOI, S
 
 
 O que eu tinha feito:
-Trocado a fonte do st pela meslolgs
+Trocado a fonte do st pela meslolgs no tamanho 15
 Trocado o tamanho da fonte do st
 
 Trocado a fonte do dwm para a fonte awesome
