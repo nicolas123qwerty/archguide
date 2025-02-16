@@ -30,6 +30,8 @@ trocado a modkey do dwm
 colocado a bar em bottom
 
 troquei o dwmblocks pelo slstatus
+
+tinha adicionado o slock e editado na source o usuario e grupo
 -------------------------------------------------------------
 Lista de patches dwm:
 
