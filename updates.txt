@@ -24,7 +24,6 @@ ZERAR A LISTA DE PATCHES DO DWM NO SITE DA SUCKLESS, POIS O RESTO TODO JA FOI, S
 
 O que eu tinha feito:
 Trocado a fonte do st pela meslolgs no tamanho 15
-Trocado o tamanho da fonte do st
 
 Trocado a fonte do dwm para a fonte awesome
 Trocado as opcoes cores do dwm para o hex do dracula
