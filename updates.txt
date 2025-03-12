@@ -9,6 +9,7 @@ https://wiki.archlinux.org/title/Power_management/Suspend_and_hibernate#Sleep_ho
 3) Deixar a pasta config o mais clean possivel
 4) Acho que seria legal recopiar o esquema de zswap, tendo em conta o pc que vou ter
 5) lembrar de colocar na config, que é pra abrir o nvidia-settings como sudo e salvar a config
+6) acho que terei problemas com loadout de teclado, visto que o pt-br do thinkpad eh diferente, ver sobre
 -------------------------------------------------------------
 
 Suckless:
