@@ -11,10 +11,11 @@ https://wiki.archlinux.org/title/Power_management/Suspend_and_hibernate#Sleep_ho
 5) lembrar de colocar na config, que é pra abrir o nvidia-settings como sudo e salvar a config
 6) acho que terei problemas com loadout de teclado, visto que o pt-br do thinkpad eh diferente, ver sobre
 7) vai ter o problema ainda das configuracoes do touchpad
-8) terei que adicionar um indicador de bateia no slstatus
+8) terei que adicionar um indicador de bateia, swap e outras coisas importantes de se monitorar no slstatus
 9) Ver como que vai funcionar as coisas no que tange a touchpad/trackpad e suas sensibilidades/comandos
 10) acho que compensaria adicionar o networkmanager, para ter uma gui de wi-fi, melhor do que ficar limitado a uma so rede com um not ne
 11) adicionar os drives que preciso da intel/wifi e outras coisas do pc e tirar o resto do pc antigo, no guide todo, tanto no yay -s quanto no .xinitrc e etc
+12) encontrar um app melhor ou baixar o cpu-x, achar algo mais completo para monitorar meu hardware
 -------------------------------------------------------------
 
 Suckless:
