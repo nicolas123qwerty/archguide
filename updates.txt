@@ -16,7 +16,7 @@ https://wiki.archlinux.org/title/Power_management/Suspend_and_hibernate#Sleep_ho
 10) acho que compensaria adicionar o networkmanager, para ter uma gui de wi-fi, melhor do que ficar limitado a uma so rede com um not ne
 11) adicionar os drives que preciso da intel/wifi e outras coisas do pc e tirar o resto do pc antigo, no guide todo, tanto no yay -s quanto no .xinitrc e etc
 12) encontrar um app melhor ou baixar o cpu-x, achar algo mais completo para monitorar meu hardware
-13) trocar config por configs na guide
+13) trocar config por configs na guide e ajeitar os comandos/caminhos por conta da mudanca no repo do desktop
 -------------------------------------------------------------
 
 Suckless:
