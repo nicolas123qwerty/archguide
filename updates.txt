@@ -7,7 +7,7 @@ Sistema:
 5) Ver como funcionaria a questão do wi-fi, os drivers, alguns utilitários e etc;
 6) Adicionar os drives que preciso (intel/wi-fi) e remover tudo que está intrissicamente ligado ao meu hardware antigo; (nvidia/nvidia-settings)
 7) Ajeitar os comandos/locais na guide, tendo em vista o repositório desktop mudou completamente;
-8) Usar o TLP ou o auto-cpufreq para uma saude de bateria melhor.
+8) Usar o TLP ou o auto-cpufreq para uma bateria mais saudável.
 -------------------------------------------------------------
 Suckless:
 
