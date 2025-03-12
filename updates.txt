@@ -1,47 +1,34 @@
 Sistema:
 
-LEMBRAR DE AJEITAR AS PASTAS/COISAS NA GUIDE
-
 1) Adicionar o zsh zsh-completions zsh-autosuggestions e o tema do powerlevel10k
-2) Criar um servico do systemd para hibernar automaticamente, vou linkar 2 lugares onde falam sobre isso:
-https://www.youtube.com/watch?v=fTHrR38-jRg&t=196s - No comeco do minuto 3
-https://wiki.archlinux.org/title/Power_management/Suspend_and_hibernate#Sleep_hooks
-3) Deixar a pasta config o mais clean possivel
-4) Acho que seria legal recopiar o esquema de zswap, tendo em conta o pc que vou ter
-5) lembrar de colocar na config, que é pra abrir o nvidia-settings como sudo e salvar a config
-6) acho que terei problemas com loadout de teclado, visto que o pt-br do thinkpad eh diferente, ver sobre
-7) vai ter o problema ainda das configuracoes do touchpad
-8) terei que adicionar um indicador de bateia, swap e outras coisas importantes de se monitorar no slstatus
-9) Ver como que vai funcionar as coisas no que tange a touchpad/trackpad e suas sensibilidades/comandos
-10) acho que compensaria adicionar o networkmanager, para ter uma gui de wi-fi, melhor do que ficar limitado a uma so rede com um not ne
-11) adicionar os drives que preciso da intel/wifi e outras coisas do pc e tirar o resto do pc antigo, no guide todo, tanto no yay -s quanto no .xinitrc e etc
-12) encontrar um app melhor ou baixar o cpu-x, achar algo mais completo para monitorar meu hardware
-13) trocar config por configs na guide e ajeitar os comandos/caminhos por conta da mudanca no repo do desktop
+3) Copiar o esquema de zswap novamente
+4) Ver sobre o layout do teclado, visto que o do thinkpad é diferente
+5) Ver se terei problemas com o touchpad/trackpad, como sua velocidade, comandos e coisas do tipo
+7) Ver como funcionaria a questão do wi-fi, os drivers, alguns utilitários e etc
+8) Adicionar os drives que preciso (intel/wi-fi) e remover tudo que está intrissicamente ligado ao meu hardware antigo (nvidia/nvidia-settings)
+9) Ajeitar os comandos/locais na guide, tendo em vista o repositório desktop mudou completamente
 -------------------------------------------------------------
-
 Suckless:
 
-LEMBRAR DE CRIAR A PASTA SUCKLESS AO UPAR NO GITHUB, NAO DEIXAR SOLTO
+ST:
+Trocar a fonte para a "MesloLGS" no tamanho 15.
 
-OBS: TODOS OS ARQUIVOS QUE UPAR NO GITHUB SERAO ARQUIVOS VIRGENS, NUNCA ANTES INSTALADOS SO COM AS CONFIGURACOES FEITAS
-ZERAR A LISTA DE PATCHES DO DWM NO SITE DA SUCKLESS, POIS O RESTO TODO JA FOI, SO FALTA FAZER ESSA LISTA DEPOIS DAR PATCH EM TUDO E BUILDAR O DWM PERFEITO
+DWM:
+Trocar a fonte do dwm para a "fonteawesome";
+Trocar as cores do dwm pelo código hex do tema dracula, para ficar com um aspecto mais limpo e monocromático;
+Trocar a modkey do dwm para a tecla super;
+Colocar a barra embaixo.
 
-3) Usar o slock
+Slstatus:
+Adicionar indicadores de bateria, swap, ram, cpu e tempo.
 
+Slock:
+Adicionar na source o usuário, grupo e senha;
+Criar um serviço automático de hibernação no systemd, vou deixar alguns conteúdos sobre isso abaixo.
+https://www.youtube.com/watch?v=fTHrR38-jRg&t=196s - À partir do minuto 3
+https://wiki.archlinux.org/title/Power_management/Suspend_and_hibernate#Sleep_hooks
 
-
-O que eu tinha feito:
-Trocado a fonte do st pela meslolgs no tamanho 15
-
-Trocado a fonte do dwm para a fonte awesome
-Trocado as opcoes cores do dwm para o hex do dracula
-trocado a modkey do dwm
-colocado a bar em bottom
-
-troquei o dwmblocks pelo slstatus
-
-tinha adicionado o slock e editado na source o usuario e grupo
--------------------------------------------------------------
+Ver mais patches, zerar o site da suckless literalmente.
 Lista de patches dwm:
 
 Tiledmove
