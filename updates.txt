@@ -9,6 +9,7 @@ Sistema:
 7) Ajeitar os comandos/locais na guide, tendo em vista o repositório desktop mudou completamente;
 8) Usar o TLP ou o auto-cpufreq para uma bateria mais saudável.
 9) Ver como vai funcionar a hibernacao/suspensao do notebook, configurar isso
+10) Ver como vai funcionar a questao do brilho, diminuir e aumentar ele
 -------------------------------------------------------------
 Suckless:
 
