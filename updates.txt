@@ -8,6 +8,7 @@ Sistema:
 6) Adicionar os drives que preciso (intel/wi-fi) e remover tudo que está intrissicamente ligado ao meu hardware antigo; (nvidia/nvidia-settings)
 7) Ajeitar os comandos/locais na guide, tendo em vista o repositório desktop mudou completamente;
 8) Usar o TLP ou o auto-cpufreq para uma bateria mais saudável.
+9) Ver como vai funcionar a hibernacao/suspensao do notebook, configurar isso
 -------------------------------------------------------------
 Suckless:
 
@@ -15,7 +16,6 @@ Slstatus:
 Adicionar indicadores de bateria, swap, ram, cpu e tempo.
 
 Slock:
-Adicionar na source o usuário, grupo e senha;
 Criar um serviço automático de hibernação no systemd, vou deixar alguns conteúdos sobre isso abaixo.
 https://www.youtube.com/watch?v=fTHrR38-jRg&t=196s - À partir do minuto 3
 https://wiki.archlinux.org/title/Power_management/Suspend_and_hibernate#Sleep_hooks
