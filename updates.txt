@@ -11,15 +11,6 @@ Sistema:
 -------------------------------------------------------------
 Suckless:
 
-ST:
-Trocar a fonte para a "MesloLGS".
-
-DWM:
-Trocar a fonte do dwm para a "fonteawesome";
-Trocar as cores do dwm pelo código hex do tema dracula, para ficar com um aspecto mais limpo e monocromático;
-Trocar a modkey do dwm para a tecla super;
-Colocar a barra embaixo.
-
 Slstatus:
 Adicionar indicadores de bateria, swap, ram, cpu e tempo.
 
