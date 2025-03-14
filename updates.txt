@@ -7,7 +7,7 @@ Sistema:
 5) Ver como funcionaria a questão do wi-fi, os drivers, alguns utilitários, menu para rápida conexãp e etc;
 6) Adicionar os drives que preciso (intel/wi-fi) e remover tudo que está intrissicamente ligado ao meu hardware antigo; (nvidia/nvidia-settings)
 7) Ajeitar os comandos/locais na guide, tendo em vista o repositório desktop mudou completamente;
-8) Usar o TLP ou o auto-cpufreq para uma bateria mais saudável.
+8) Usar o TLP, auto-cpufreq ou o tuned do redhat para uma bateria mais saudável.
 9) Ver como vai funcionar a hibernacao/suspensao do notebook, configurar isso
 10) Ver como vai funcionar a questao do brilho, diminuir e aumentar ele
 11) Usar o bluez e o blueman para bluetooth
