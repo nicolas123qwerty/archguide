@@ -10,7 +10,8 @@ Sistema:
 8) Usar o TLP, auto-cpufreq ou o tuned da redhat para uma bateria mais saudável;
 9) Ver como vai funcionar a hibernação/suspensão do notebook, configurar isso;
 10) Ver como vai funcionar a questão do brilho, diminuir e aumentar ele;
-11) Usar o bluez e o blueman para bluetooth.
+11) Usar o bluez e o blueman para bluetooth;
+12) Ver sobre as extensões de keybinds do dwm, para evitar o uso excessivo do touchpad.
 -------------------------------------------------------------
 Suckless:
 
