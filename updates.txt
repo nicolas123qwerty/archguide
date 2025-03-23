@@ -11,7 +11,8 @@ Sistema:
 9) Ver como vai funcionar a hibernação/suspensão do notebook, configurar isso;
 10) Ver como vai funcionar a questão do brilho, diminuir e aumentar ele;
 11) Usar o bluez e o blueman para bluetooth;
-12) Ver sobre as extensões de keybinds do dwm, para evitar o uso excessivo do touchpad.
+12) Ver sobre as extensões de keybinds do dwm, para evitar o uso excessivo do touchpad;
+13) Ver sobre o possível uso do btrfs, tendo em vista que eu não cogitei usá-lo por conta de que só teria ganhos reais com um ssd.
 -------------------------------------------------------------
 Suckless:
 
