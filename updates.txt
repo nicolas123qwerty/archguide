@@ -12,7 +12,8 @@ Sistema:
 10) Ver como vai funcionar a questão do brilho, diminuir e aumentar ele;
 11) Usar o bluez e o blueman para bluetooth;
 12) Ver sobre as extensões de keybinds do dwm, para evitar o uso excessivo do touchpad;
-13) Ver sobre o possível uso do btrfs, tendo em vista que eu não cogitei usá-lo por conta de que só teria ganhos reais com um ssd.
+13) Ver sobre o possível uso do btrfs, tendo em vista que eu não cogitei usá-lo por conta de que só teria ganhos reais com um ssd;
+14) Mais por uma questão de aproveitamento de hardware, acho que seria interessante usar os sistemas biometricos que o thinkpad me oferece, tais como a digital e reconhecimento facial, isso pode ser feito facilmente, usando um ssdm/gdm e o howdy, obviamente verei sobre outras soluções mas acho essa ideia incrível.
 -------------------------------------------------------------
 Suckless:
 
