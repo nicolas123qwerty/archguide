@@ -3,13 +3,9 @@ Tenho 119.2GB de armazenamento total
 Sistema:
 
 1) Adicionar o zsh, zsh-completions, zsh-autosuggestions e o tema do powerlevel10k;
-2) Copiar o esquema de zswap novamente;
-3) Adicionar os drives que preciso (intel/wi-fi) e remover tudo que está intrissicamente ligado ao meu hardware antigo; (nvidia/nvidia-settings)
-4) Ajeitar os comandos/locais na guide, tendo em vista o repositório desktop mudou completamente;
-5) Ver como vai funcionar a questão do brilho, algum atalho para diminuir e aumentar ele;
-6) Ver sobre os patches de keybinds do dwm, para evitar o uso excessivo do touchpad;
-7) Colocar o layout do teclado em pt-br.
-8) Ver como eu vou usar minha internet, ver coisas xomo dhcpcd e etc
+2) Ajeitar os comandos/locais na guide, tendo em vista o repositório desktop mudou completamente;
+3) Ver como vai funcionar a questão do brilho, algum atalho para diminuir e aumentar ele;
+4) Ver sobre os patches de keybinds do dwm, para evitar o uso excessivo do touchpad.
 -------------------------------------------------------------
 Suckless:
 
