@@ -6,8 +6,8 @@ Sistema:
 4) Ver sobre comandos inteligentes no touchpad, como os cliques duplos e coisas do tipo;
 5) Adicionar os drives que preciso (intel/wi-fi) e remover tudo que está intrissicamente ligado ao meu hardware antigo; (nvidia/nvidia-settings)
 6) Ajeitar os comandos/locais na guide, tendo em vista o repositório desktop mudou completamente;
-9) Ver como vai funcionar a questão do brilho, algum atalho para diminuir e aumentar ele;
-11) Ver sobre as extensões de keybinds do dwm, para evitar o uso excessivo do touchpad;
+7) Ver como vai funcionar a questão do brilho, algum atalho para diminuir e aumentar ele;
+8) Ver sobre as extensões de keybinds do dwm, para evitar o uso excessivo do touchpad;
 -------------------------------------------------------------
 Suckless:
 
