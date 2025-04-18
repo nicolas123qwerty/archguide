@@ -147,8 +147,8 @@ make clean install
 cd -
 cd slock
 make clean install
-cd -
-cd -
+cd ..
+cd ..
 mv configs /home/unknown/Downloads
 cd theming
 cd theme
