@@ -1,3 +1,5 @@
+Tenho 119.2GB de armazenamento total
+
 Sistema:
 
 1) Adicionar o zsh, zsh-completions, zsh-autosuggestions e o tema do powerlevel10k;
@@ -7,6 +9,7 @@ Sistema:
 5) Ver como vai funcionar a questão do brilho, algum atalho para diminuir e aumentar ele;
 6) Ver sobre os patches de keybinds do dwm, para evitar o uso excessivo do touchpad;
 7) Colocar o layout do teclado em pt-br.
+8) Ver como eu vou usar minha internet, ver coisas xomo dhcpcd e etc
 -------------------------------------------------------------
 Suckless:
 
