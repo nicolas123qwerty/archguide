@@ -1,5 +1,3 @@
-Tenho 119.2GB de armazenamento total
-
 Sistema:
 
 1) Adicionar o zsh, zsh-completions, zsh-autosuggestions e o tema do powerlevel10k;
