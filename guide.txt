@@ -110,14 +110,12 @@ exit
 cd /tmp && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
 yay --version
 
-yay -S systemd-swap ttf-meslo-nerd gvfs gvfs-afc vlc ttf-font-awesome noto-fonts-cjk noto-fonts-emoji brave-bin easyeffects-git fastfetch fuse2 xorg xorg-xinit xorg-server mesa vulkan-intel intel-ucode pipewire pipewire-alsa alsa-utils pipewire-pulse thunar discord parole code flameshot viewnior qbittorrent lsp-plugins gimp
-thunar-archive-plugin xarchiver 7zip htop libreoffice-still noto-fonts xdg-utils xdg-user-dirs thunar-volman openssh feh
+yay -S systemd-swap ttf-meslo-nerd gvfs gvfs-afc vlc ttf-font-awesome noto-fonts-cjk noto-fonts-emoji brave-bin easyeffects-git fastfetch fuse2 xorg xorg-xinit xorg-server mesa vulkan-intel intel-ucode pipewire pipewire-alsa alsa-utils pipewire-pulse thunar code flameshot viewnior qbittorrent lsp-plugins
+thunar-archive-plugin xarchiver 7zip htop noto-fonts xdg-utils xdg-user-dirs thunar-volman feh
 
 sudo reboot
 
 su
-
-nano /etc/ssh/sshd_config - Uncomment the "PermitRootLogin" and set the value "no"
 
  mkswap -U clear --size 4G --file /swapfile
  swapon /swapfile
