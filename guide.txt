@@ -48,7 +48,8 @@ locale-gen
 
 echo "LANG=en_US.UTF-8" >> /etc/locale.conf
 
-nano /etc/X11/xorg.conf.d/10-evdev.conf
+cd /etc/X11/xorg.conf.d
+nano 10-evdev.conf
 Section "InputClass"
     Identifier "evdev keyboard catchall"
     MatchIsKeyboard "on"
@@ -56,6 +57,16 @@ Section "InputClass"
     Driver "evdev"
     Option "XkbLayout" "br"
     Option "XkbVariant" "abnt2"
+EndSection
+
+nano 30-touchpad.conf
+Section "InputClass"
+        Identifier "Synaptics TM3276-022"
+        Driver "libinput"
+        MatchIsTouchpad "on"
+        Option "Tapping" "on"
+        Option "NeutralScrolling" "true"
+        Option "DisableWhileTyping" "true"
 EndSection
 
 echo "Arch" >> /etc/hostname
