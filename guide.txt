@@ -83,7 +83,7 @@ exit
 
 nano /etc/systemd/network/25-wireless.network
 [Match]
-Name=wlp2s0 - Ver qual é o nome com o comando ls /sys/class/net
+Name=wlan0
 
 [Link]
 RequiredForOnline=routable
