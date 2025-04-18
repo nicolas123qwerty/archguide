@@ -6,6 +6,7 @@ Sistema:
 4) Ajeitar os comandos/locais na guide, tendo em vista o repositório desktop mudou completamente;
 5) Ver como vai funcionar a questão do brilho, algum atalho para diminuir e aumentar ele;
 6) Ver sobre os patches de keybinds do dwm, para evitar o uso excessivo do touchpad;
+7) Colocar o layout do teclado em pt-br.
 -------------------------------------------------------------
 Suckless:
 
