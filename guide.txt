@@ -9,7 +9,7 @@ loadkeys br-abnt2
 cfdisk
 512M for /boot - /dev/sda1 - EFI System
 50G for / - /dev/sda2 - Linux root (x86-64)
-68G for /home - /dev/sda3 - Linux home
+68.7G for /home - /dev/sda3 - Linux home
 
 mkfs.fat -F32 /dev/sda1
 mkfs.ext4 /dev/sda2
