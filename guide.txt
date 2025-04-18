@@ -117,20 +117,20 @@ sudo reboot
 
 su
 
- mkswap -U clear --size 4G --file /swapfile
- swapon /swapfile
- free -h
- 
- nano /etc/fstab
- #swapfile
- /swapfile none swap defaults 0 0
- 
- systemctl enable systemd-swap
- 
- nano /etc/systemd/swap.conf - Uncomment the "swapfc_enable" and set the value "1"
- 
- systemctl restart systemd-swap
- systemd-swap status
+mkswap -U clear --size 4G --file /swapfile
+swapon /swapfile
+free -h
+
+nano /etc/fstab
+#swapfile
+/swapfile none swap defaults 0 0
+
+systemctl enable systemd-swap
+
+nano /etc/systemd/swap.conf - Uncomment the "swapfc_enable" and set the value "1"
+
+systemctl restart systemd-swap
+systemd-swap status
 
 git clone https://github.com/nicolas123qwerty/desktop
 
