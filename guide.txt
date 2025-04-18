@@ -1,16 +1,15 @@
+iwctl
+station wlan0 connect Intelbras
+exit
+
 ping -c 3 google.com
+
+loadkeys br-abnt2
 
 cfdisk
 512M for /boot - /dev/sda1 - EFI System
-200G for / - /dev/sda2 - Linux root (x86-64)
-400G for /home - /dev/sda3 - Linux home
-
-|---------------------------------------------------|
-| 331G for /archives - /dev/sda4 - Linux filesystem |
-| mkfs.ext4 /dev/sda4                               |
-| mkdir /archives                                   |
-| mount /dev/sda4 /archives                         |
-|---------------------------------------------------|
+50G for / - /dev/sda2 - Linux root (x86-64)
+68G for /home - /dev/sda3 - Linux home
 
 mkfs.fat -F32 /dev/sda1
 mkfs.ext4 /dev/sda2
@@ -26,12 +25,9 @@ mount /dev/sda3 /mnt/home
 
 lsblk
 
-pacstrap /mnt base base-devel linux linux-firmware linux-headers nano
+pacstrap /mnt base base-devel linux linux-firmware linux-headers nano iwd
 
 genfstab -U -p /mnt >> /mnt/etc/fstab
-
-nano /mnt/etc/fstab
-/dev/sda4 /archives ext4 x-gvfs-show 0 3
 
 cat /mnt/etc/fstab
 
@@ -51,6 +47,9 @@ nano /etc/locale.gen - Uncomment the [en_US.UTF-8]
 locale-gen
 
 echo "LANG=en_US.UTF-8" >> /etc/locale.conf
+
+nano /etc/vconsole.conf
+KEYMAP=br-abnt2
 
 echo "Arch" >> /etc/hostname
 
@@ -73,17 +72,29 @@ reboot
 su
 systemctl enable systemd-networkd
 systemctl enable systemd-resolved
+systemctl enable iwd.service
 systemctl start systemd-networkd
 systemctl start systemd-resolved
+systemctl start iwd.service
 
-nano /etc/systemd/network/20-wired.network
+iwctl
+station wlan0 connect Intelbras
+exit
+
+nano /etc/systemd/network/25-wireless.network
 [Match]
-Name=enp3s0
+Name=wlp2s0 - Ver qual é o nome com o comando ls /sys/class/net
+
+[Link]
+RequiredForOnline=routable
+
 [Network]
 DHCP=yes
+IgnoreCarrierLoss=3s
 
 systemctl restart systemd-networkd
 systemctl restart systemd-resolved
+systemctl restart iwd.service
  
 ping -c 3 google.com
 
@@ -93,7 +104,7 @@ exit
 cd /tmp && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
 yay --version
 
-yay -S ttf-meslo-nerd gvfs vlc ttf-font-awesome noto-fonts-cjk noto-fonts-emoji brave-bin easyeffects-git fastfetch fuse2 xorg xorg-xinit nvidia nvidia-utils nvidia-settings intel-ucode pipewire pipewire-alsa alsa-utils mupdf pipewire-pulse thunar discord parole code flameshot viewnior qbittorrent lsp-plugins gimp
+yay -S systemd-swap ttf-meslo-nerd gvfs vlc ttf-font-awesome noto-fonts-cjk noto-fonts-emoji brave-bin easyeffects-git fastfetch fuse2 xorg xorg-xinit xorg-server mesa vulkan-intel intel-ucode pipewire pipewire-alsa alsa-utils mupdf pipewire-pulse thunar discord parole code flameshot viewnior qbittorrent lsp-plugins gimp
 thunar-archive-plugin xarchiver 7zip htop libreoffice-still noto-fonts xdg-utils xdg-user-dirs thunar-volman openssh feh
 
 sudo reboot
@@ -101,6 +112,21 @@ sudo reboot
 su
 
 nano /etc/ssh/sshd_config - Uncomment the "PermitRootLogin" and set the value "no"
+
+ mkswap -U clear --size 4G --file /swapfile
+ swapon /swapfile
+ free -h
+ 
+ nano /etc/fstab
+ #swapfile
+ /swapfile none swap defaults 0 0
+ 
+ systemctl enable systemd-swap
+ 
+ nano /etc/systemd/swap.conf - Uncomment the "swapfc_enable" and set the value "1"
+ 
+ systemctl restart systemd-swap
+ systemd-swap status
 
 git clone https://github.com/nicolas123qwerty/desktop
 
