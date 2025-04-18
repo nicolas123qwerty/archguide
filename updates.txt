@@ -1,6 +1,6 @@
 Sistema:
 
-1) Adicionar o zsh, zsh-completion, zsh-autosuggestions e o tema do powerlevel10k;
+1) Adicionar o zsh, zsh-completions, zsh-autosuggestions e o tema do powerlevel10k;
 2) Copiar o esquema de zswap novamente;
 3) Ver sobre o layout do teclado, visto que o do thinkpad é diferente;
 4) Ver sobre comandos inteligentes no touchpad, como os cliques duplos e coisas do tipo;
