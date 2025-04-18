@@ -2,11 +2,10 @@ Sistema:
 
 1) Adicionar o zsh, zsh-completions, zsh-autosuggestions e o tema do powerlevel10k;
 2) Copiar o esquema de zswap novamente;
-3) Ver sobre comandos inteligentes no touchpad, como os cliques duplos e coisas do tipo;
-4) Adicionar os drives que preciso (intel/wi-fi) e remover tudo que está intrissicamente ligado ao meu hardware antigo; (nvidia/nvidia-settings)
-5) Ajeitar os comandos/locais na guide, tendo em vista o repositório desktop mudou completamente;
-6) Ver como vai funcionar a questão do brilho, algum atalho para diminuir e aumentar ele;
-7) Ver sobre as extensões de keybinds do dwm, para evitar o uso excessivo do touchpad;
+3) Adicionar os drives que preciso (intel/wi-fi) e remover tudo que está intrissicamente ligado ao meu hardware antigo; (nvidia/nvidia-settings)
+4) Ajeitar os comandos/locais na guide, tendo em vista o repositório desktop mudou completamente;
+5) Ver como vai funcionar a questão do brilho, algum atalho para diminuir e aumentar ele;
+6) Ver sobre os patches de keybinds do dwm, para evitar o uso excessivo do touchpad;
 -------------------------------------------------------------
 Suckless:
 
@@ -17,6 +16,11 @@ Slock:
 Criar um serviço automático de hibernação no systemd, vou deixar alguns conteúdos sobre isso abaixo.
 https://www.youtube.com/watch?v=fTHrR38-jRg&t=196s - À partir do minuto 3
 https://wiki.archlinux.org/title/Power_management/Suspend_and_hibernate#Sleep_hooks
+
+Touchpad:
+https://superuser.com/questions/1528211/enabling-touchpad-tapping-after-installing-dwm-on-arch-linux
+https://www.youtube.com/watch?v=cElqQXRZ02w
+
 
 Ver "todos" os patches, zerar a lista do flexipatch.
 Lista de patches dwm:
