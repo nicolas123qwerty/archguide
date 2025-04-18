@@ -1,20 +1,18 @@
 Sistema:
 
-1) Adicionar o zsh zsh-completions zsh-autosuggestions e o tema do powerlevel10k;
+1) Adicionar o zsh, zsh-completion, zsh-autosuggestions e o tema do powerlevel10k;
 2) Copiar o esquema de zswap novamente;
 3) Ver sobre o layout do teclado, visto que o do thinkpad é diferente;
-4) Ver se terei problemas com o touchpad/trackpad, como sua velocidade, comandos e coisas do tipo;
-5) Ver como funcionaria a questão do wi-fi, os drivers e alguns utilitários como um menu para rápida conexão entre redes e etc;
-6) Adicionar os drives que preciso (intel/wi-fi) e remover tudo que está intrissicamente ligado ao meu hardware antigo; (nvidia/nvidia-settings)
-7) Ajeitar os comandos/locais na guide, tendo em vista o repositório desktop mudou completamente;
-8) Usar o TLP, auto-cpufreq ou o tuned da redhat para uma bateria mais saudável;
-9) Ver como vai funcionar a hibernação/suspensão do notebook, configurar isso;
-10) Ver como vai funcionar a questão do brilho, diminuir e aumentar ele;
-11) Usar o bluez e o blueman para bluetooth;
-12) Ver sobre as extensões de keybinds do dwm, para evitar o uso excessivo do touchpad;
-13) Ver sobre o possível uso do btrfs, tendo em vista que eu não cogitei usá-lo por conta de que só teria ganhos reais com um ssd;
-14) Mais por uma questão de aproveitamento de hardware, acho que seria interessante usar os sistemas biometricos que o thinkpad me oferece, tais como a digital e reconhecimento facial, isso pode ser feito facilmente, usando um ssdm/gdm e o howdy, obviamente verei sobre outras soluções mas acho essa ideia incrível;
-15) Usar senha para desbloquear o computador, configurando isso pela bios.
+4) Ver sobre comandos inteligentes no touchpad, como os cliques duplos e coisas do tipo;
+5) Adicionar os drives que preciso (intel/wi-fi) e remover tudo que está intrissicamente ligado ao meu hardware antigo; (nvidia/nvidia-settings)
+6) Ajeitar os comandos/locais na guide, tendo em vista o repositório desktop mudou completamente;
+7) Usar o TLP, auto-cpufreq ou o tuned da redhat para uma bateria mais saudável;
+8) Ver como vai funcionar a hibernação/suspensão do notebook, configurar isso;
+9) Ver como vai funcionar a questão do brilho, algum atalho para diminuir e aumentar ele;
+10) Usar o bluez e o blueman para o bluetooth;
+11) Ver sobre as extensões de keybinds do dwm, para evitar o uso excessivo do touchpad;
+12) Ver sobre o possível uso do btrfs, tendo em vista que eu não cogitei usá-lo por conta de que só teria ganhos reais com um ssd;
+13) Mais por uma questão de aproveitamento de hardware, acho que seria interessante usar os sistemas biometricos que o thinkpad me oferece, tais como a senha ao inicializar, a digital o e reconhecimento facial, isso pode ser feito facilmente, usando um sddm/gdm e o howdy, obviamente verei sobre outras soluções mas acho essa ideia incrível;
 -------------------------------------------------------------
 Suckless:
 
