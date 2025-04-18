@@ -1,9 +1,8 @@
 Sistema:
 
 1) Adicionar o zsh, zsh-completions, zsh-autosuggestions e o tema do powerlevel10k;
-2) Ajeitar os comandos/locais na guide, tendo em vista o repositório desktop mudou completamente;
-3) Ver como vai funcionar a questão do brilho, algum atalho para diminuir e aumentar ele;
-4) Ver sobre os patches de keybinds do dwm, para evitar o uso excessivo do touchpad.
+2) Ver como vai funcionar a questão do brilho, algum atalho para diminuir e aumentar ele;
+3) Ver sobre os patches de keybinds do dwm, para evitar o uso excessivo do touchpad.
 -------------------------------------------------------------
 Suckless:
 
