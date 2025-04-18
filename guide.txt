@@ -133,10 +133,11 @@ git clone https://github.com/nicolas123qwerty/desktop
 mv desktop /home/unknown/.config
 
 cd /home/unknown/.config/desktop
+cd suckless
 cd dwm
 make clean install
 cd -
-cd dwmblocks
+cd slstatus
 make clean install
 cd -
 cd dmenu
@@ -145,7 +146,12 @@ cd -
 cd st
 make clean install
 cd -
-mv config /home/unknown/Downloads
+cd slock
+make clean install
+cd -
+cd -
+mv configs /home/unknown/Downloads
+cd theming
 cd theme
 tar -xf dracula.tar.xz
 tar -xf ultraflat.tar.xz
@@ -167,11 +173,10 @@ gtk-icon-theme-name = ultraflat
 gtk-cursor-theme-name = default
 
 nano .xinitrc
-feh --bg-max /home/unknown/.config/desktop/wallpaper/wallpaper.jpg &
+feh --bg-max /home/unknown/.config/desktop/theming/wallpaper/wallpaper.jpg &
 exec dwm &
-dwmblocks &
+slstatus &
 nohup easyeffects --gapplication-service &
-nvidia-settings --load-config-only &
 flameshot
 
 nano .bash_profile
