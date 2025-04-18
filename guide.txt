@@ -110,7 +110,7 @@ exit
 cd /tmp && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
 yay --version
 
-yay -S systemd-swap ttf-meslo-nerd gvfs gvfs-afc vlc ttf-font-awesome noto-fonts-cjk noto-fonts-emoji brave-bin easyeffects-git fastfetch fuse2 xorg xorg-xinit xorg-server mesa vulkan-intel intel-ucode pipewire pipewire-alsa alsa-utils mupdf pipewire-pulse thunar discord parole code flameshot viewnior qbittorrent lsp-plugins gimp
+yay -S systemd-swap ttf-meslo-nerd gvfs gvfs-afc vlc ttf-font-awesome noto-fonts-cjk noto-fonts-emoji brave-bin easyeffects-git fastfetch fuse2 xorg xorg-xinit xorg-server mesa vulkan-intel intel-ucode pipewire pipewire-alsa alsa-utils pipewire-pulse thunar discord parole code flameshot viewnior qbittorrent lsp-plugins gimp
 thunar-archive-plugin xarchiver 7zip htop libreoffice-still noto-fonts xdg-utils xdg-user-dirs thunar-volman openssh feh
 
 sudo reboot
