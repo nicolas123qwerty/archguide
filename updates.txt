@@ -14,10 +14,6 @@ Criar um serviço automático de hibernação no systemd, vou deixar alguns cont
 https://www.youtube.com/watch?v=fTHrR38-jRg&t=196s - À partir do minuto 3
 https://wiki.archlinux.org/title/Power_management/Suspend_and_hibernate#Sleep_hooks
 
-Touchpad:
-https://superuser.com/questions/1528211/enabling-touchpad-tapping-after-installing-dwm-on-arch-linux
-https://www.youtube.com/watch?v=cElqQXRZ02w
-
 
 Ver "todos" os patches, zerar a lista do flexipatch.
 Lista de patches dwm:
