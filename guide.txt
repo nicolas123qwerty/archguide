@@ -145,7 +145,6 @@ systemctl enable systemd-swap
 
 nano /etc/systemd/swap.conf - Uncomment the "swapfc_enable" and set the value "1"
 
-systemctl restart systemd-swap
 systemd-swap status
 
 git clone https://github.com/nicolas123qwerty/desktop
