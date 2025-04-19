@@ -6,9 +6,6 @@ Sistema:
 -------------------------------------------------------------
 Suckless:
 
-Slstatus:
-Adicionar indicadores de bateria, swap, ram, cpu e tempo.
-
 Slock:
 Criar um serviço automático de hibernação no systemd, vou deixar alguns conteúdos sobre isso abaixo.
 https://www.youtube.com/watch?v=fTHrR38-jRg&t=196s - À partir do minuto 3
