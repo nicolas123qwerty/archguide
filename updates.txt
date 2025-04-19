@@ -2,7 +2,8 @@ Sistema:
 
 1) Adicionar o zsh, zsh-completions, zsh-autosuggestions e o tema do powerlevel10k;
 2) Ver como vai funcionar a questão do brilho, algum atalho para diminuir e aumentar ele;
-3) Ver sobre os patches de keybinds do dwm, para evitar o uso excessivo do touchpad.
+3) Ver sobre os patches de keybinds do dwm, para evitar o uso excessivo do touchpad;
+4) Adicionar uma colorbind decente.
 -------------------------------------------------------------
 Suckless:
 
