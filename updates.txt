@@ -1,3 +1,17 @@
+Possiveis pacotes para adicionar:
+
+libva-intel-driver ou intel-media-driver | libvdpau-va-gl | libva-utils
+options i915 enable_guc=2
+Talvez usar o chromium por conta do vaapi?
+
+Toda essa questão de driver intel esse repo fala muito bem: https://gist.github.com/lbrame/1678c00213c2bd069c0a59f8733e0ee6
+
+Ver sobre o Iptables, se eu estou usando ele ou nao lol
+
+Acho que a unica coisa que pode ter que nao esteja perfeita é a questão da fonte, nao ter as "melhores" instaladas
+
+Limpar excessivamente e tentar organizar e deixar o minimo e mais limpo possivel a sequencia de comandos, sepa ate comentar
+
 Sistema:
 
 1) Adicionar o zsh, zsh-completions, zsh-autosuggestions e o tema do powerlevel10k;
