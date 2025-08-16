@@ -14,6 +14,8 @@ Limpar excessivamente e tentar organizar e deixar o minimo e mais limpo possivel
 
 Configurar o .xinitrc e os bashprofile, os xresources e essas porra que idk
 
+Privacy.sexy
+
 Sistema:
 
 1) Adicionar o zsh, zsh-completions, zsh-autosuggestions e o tema do powerlevel10k;
