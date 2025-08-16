@@ -133,6 +133,7 @@ Section "InputClass"
         Option "DisableWhileTyping" "true"
 EndSection
 
+cd
 mkswap -U clear --size 4G --file /swapfile
 swapon /swapfile
 free -h
