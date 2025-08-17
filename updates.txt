@@ -15,6 +15,7 @@ Limpar excessivamente e tentar organizar e deixar o minimo e mais limpo possivel
 Configurar o .xinitrc e os bashprofile, os xresources e essas porra que idk
 
 Privacy.sexy
+remover o vlc
 
 Sistema:
 
